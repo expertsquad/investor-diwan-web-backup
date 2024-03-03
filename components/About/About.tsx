@@ -1,0 +1,155 @@
+import Image from "next/image";
+import lineImage from "@/components/assets/line-image.svg";
+import mapDesktop from "@/components/assets/map-location-desktop.svg";
+import dollarMapDesktop from "@/components/assets/doller-map-desktop.svg";
+import bridgeDesktop from "@/components/assets/bridge-Desktop.svg";
+import movementImageDesktop from "@/components/assets/movementImage-Desktop.svg";
+import userPageDemo from "@/components/assets/userPageDemo.svg";
+import { yourSuccessDemoData } from "@/constants";
+import earthImg from "@/components/assets/images/earthImg.png";
+import CustomSection from "./CustomSection";
+
+const About = () => {
+  return (
+    <div className="bg-[#14001E] px-5 md:px-4 max-w-[1280px] mx-auto mt-[150px] md:mt-44 lg:mt-56 mb-8 md:mb-48">
+      <title className="text-center text-[22px] md:text-5xl text-white mb-2.5 md:mb-5 font-bold ">
+        Investor Diwan | About
+      </title>
+
+      {/* //--About investor diwan-- */}
+      <div className="relative mb-20 md:mb-28">
+        {/* --Background Shape-- */}
+        <div className="h-[288px] w-[288px] bg-[#AE00FF] hidden md:block blur-[290px] absolute left-[-500px] translate-x-1/2 "></div>
+        <div className="relative flex flex-col items-center justify-center">
+          <div className="custom-animation-360deg-opacity max-w-[250px] md:max-w-[750px]">
+            <Image src={earthImg} alt="service section earth img" />
+          </div>
+          <div className="flex items-center justify-center gap-5 flex-col absolute">
+            <h3 className="text-center text-[22px] md:text-5xl text-white mb-2.5 md:mb-5 font-bold ">
+              About Investor Diwan
+            </h3>
+            <div className="flex items-center justify-center [width:clamp(250px,50vw,500px)]">
+              <Image src={lineImage} alt="line image" />
+            </div>
+            <p className="text-sm md:text-[18px] text-white text-opacity-70 text-center mt-4 md:mt-8 md:w-[900px] leading-8">
+            The Investor Diwan is revolutionizing the FinTech landscape with its pioneering micro-investing platform, the first of its kind in the MENA region. Our platform is designed to make investing effortless and accessible, breaking down traditional barriers and integrating investment opportunities into everyday financial activities.
+            </p>
+          </div>
+        </div>
+      </div>
+      {/* //--spark of innovation-- */}
+      <div className="bg-white bg-opacity-10 px-5 py-[30px] md:px-10 md:py-16 lg:px-16 lg:py-24 rounded-md mb-6 md:mb-16 ">
+        <h4 className="text-[18px] md:text-[50px] font-bold text-center text-white animate-bounce">
+        Igniting the Spark of Innovation
+        </h4>
+        <p className="text-white text-opacity-70 text-center text-sm md:text-[18px] leading-tight mt-5 md:mt-7">
+        Our journey at The Investor Diwan began with more than just a vision; it started with a spark of innovation. Rooted in the vibrant heart of Qatar, a diverse group of visionary entrepreneurs and tech wizards came together, united by a shared passion for finance and technology. This convergence of minds gave birth to a groundbreaking idea – to transform stock investing from a distant dream into an integral part of everyday life.
+        </p>
+      </div>
+
+      <div className="flex items-center justify-between">
+        <div className="md:h-40 md:w-40 h-12 w-12 bg-[#AE00FF]  md:blur-[190px] blur-[60px]    "></div>
+        <div className="md:h-40 md:w-40 h-12 w-12 bg-[#AE00FF]  md:blur-[190px] blur-[60px]    "></div>
+      </div>
+      {/* //--World & Map financial Navigation-- */}
+      <CustomSection
+        title="Compass and Map for Financial Navigation"
+        text="The Investor Diwan emerged from the fusion of dreams and practicality, a pioneering platform designed to be the compass and map for navigating the financial world. Our team, a synergy of financial enthusiasts and tech innovators, dedicated themselves to simplifying investing. The objective was clear – to make entering the stock market as effortless and ingrained in daily routines as checking one’s phone."
+        image={mapDesktop}
+        reverse
+      />
+
+      <div className="flex items-center justify-between">
+        <div className="md:h-40 md:w-40 h-12 w-12 bg-[#AE00FF]  md:blur-[190px] blur-[60px]    "></div>
+        <div className="md:h-40 md:w-40 h-12 w-12 bg-[#AE00FF]  md:blur-[190px] blur-[60px]    "></div>
+        <div className="md:h-40 md:w-40 h-12 w-12 bg-[#AE00FF]  md:blur-[190px] blur-[60px]    "></div>
+      </div>
+      {/* //--Pathway of Financial ETC-- */}
+      <CustomSection
+        title="A Pathway for All to Navigate Financial Waters"
+      text="Our initiative extended beyond merely opening doors to the stock market; it was about creating a pathway that is inviting and comprehensible to everyone. Whether you are a young professional taking your first step into investing or a seasoned investor seeking smarter portfolio expansion, The Investor Diwan stands as a beacon, guiding individuals through the intricacies of investing."
+        image={dollarMapDesktop}
+        reverse
+        imageOrder
+      />
+
+      <div className="flex items-center justify-between">
+        <div className="md:h-40 md:w-40 h-12 w-12 bg-[#AE00FF]  md:blur-[190px] blur-[60px]    "></div>
+        <div className="md:h-40 md:w-40 h-12 w-12 bg-[#AE00FF]  md:blur-[190px] blur-[60px]    "></div>
+        <div className="md:h-40 md:w-40 h-12 w-12 bg-[#AE00FF]  md:blur-[190px] blur-[60px]    "></div>
+      </div>
+      {/* //--Bridging the Gap in Financial Understanding-- */}
+      <CustomSection
+        title="Bridging the Gap in Financial Understanding"
+        text="As we delved into the dynamics of the stock market, we realized that while its ripples touched every corner of our lives, many individuals remained on the shores, unsure of how to navigate the vast financial waters. This observation fueled our mission: to dismantle the formidable walls surrounding financial markets. Our goal was not just to make them accessible but to make investing as habitual and straightforward as your morning coffee."
+        image={bridgeDesktop}
+        reverse
+      />
+      <div className="flex items-center justify-between">
+        <div className="md:h-40 md:w-40 h-12 w-12 bg-[#AE00FF]  md:blur-[190px] blur-[60px]    "></div>
+        <div className="md:h-40 md:w-40 h-12 w-12 bg-[#AE00FF]  md:blur-[190px] blur-[60px]    "></div>
+      </div>
+      {/* //--Movement for Financial Empowerment--*/}
+      <CustomSection
+        title="Movement for Financial Empowerment"
+        text="Today, The Investor Diwan transcends being just a platform; it has evolved into a movement towards financial empowerment. Our journey persists as we innovate, educate, and break new ground, ensuring that the world of finance is no longer an elite playground but a community garden – thriving and accessible to all. Join us as we redefine the investment landscape, making financial growth and success a daily reality for everyone."
+        image={movementImageDesktop}
+        reverse
+        imageOrder
+      />
+
+      <div className="flex items-center justify-end">
+        <div className="md:h-40 md:w-40 h-12 w-12 bg-[#AE00FF]  md:blur-[190px] blur-[60px]    "></div>
+        <div className="md:h-40 md:w-40 h-12 w-12 bg-[#AE00FF]  md:blur-[190px] blur-[60px]    "></div>
+      </div>
+      {/* //--Your Success, Our Commitment-- */}
+      <div className="px-5 md:px-10 pt-[45px] flex flex-col md:grid md:grid-cols-7 md:gap-7 bg-white bg-opacity-10 rounded-2xl md:mb-20 mb-44">
+        <div className="col-span-3">
+          <span className="text-white font-medium text-center md:text-left md:mb-5">
+            OUR GOALS
+          </span>
+          <h6 className="text-white font-bold text-xl md:text-[44px] my-2.5 md:mb-5 leading-[45px]">
+            Your Success, Our Commitment
+          </h6>
+          <p className="text-white text-sm md:text-[18px] mb-5 md:mb-16">
+            The Investor Diwan is not just about investing , it&apos;s about
+            investing in yourself. Join us today and unlock the doors to
+            financial growth and confidence. Your future in Investing starts
+            here.
+          </p>
+          <div className="flex items-center justify-center md:justify-center py-10 md:py-0 mb-7">
+            <Image
+              src={userPageDemo}
+              alt="User Page Demo"
+              className="max-h-[600px] object-contain"
+            />
+          </div>
+        </div>
+        <div className="text-white col-span-4">
+          {yourSuccessDemoData.map((data, index) => (
+            <div
+              key={index}
+              className="border-b border-b-white border-opacity-30 mb-10"
+            >
+              <ul className="">
+                <li className="text-lg md:text-[20px] mb-2 font-medium text-white">
+                  {data.title}
+                </li>
+              </ul>
+              <p className="mb-5 md:mb-8 text-sm md:text-[16px] text-white text-opacity-70 font-normal">
+                {data.description}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="flex items-center justify-between">
+        <div className="md:h-40 md:w-40 h-12 w-12 bg-[#AE00FF]  md:blur-[190px] blur-[60px]    "></div>
+        <div className="md:h-40 md:w-40 h-12 w-12 bg-[#AE00FF]  md:blur-[190px] blur-[60px]    "></div>
+        <div className="md:h-40 md:w-40 h-12 w-12 bg-[#AE00FF]  md:blur-[190px] blur-[60px]    "></div>
+      </div>
+    </div>
+  );
+};
+
+export default About;

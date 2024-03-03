@@ -1,0 +1,321 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #14001e;
+}
+
+/* all animation  */
+.custom-animation-rotate {
+  animation: custom-rotate 10s infinite alternate;
+}
+
+@keyframes custom-rotate {
+  from {
+    rotate: 180deg;
+  }
+
+  to {
+    rotate: -180deg;
+  }
+}
+
+.custom-animation-360deg {
+  animation: custom-rotate-360deg 25s infinite linear;
+}
+
+@keyframes custom-rotate-360deg {
+  from {
+    rotate: 0deg;
+  }
+
+  to {
+    rotate: 360deg;
+  }
+}
+
+.custom-animation-360deg-opacity {
+  animation: custom-rotate-360deg-opacity 35s infinite linear;
+}
+
+@keyframes custom-rotate-360deg-opacity {
+  0% {
+    rotate: 0deg;
+    opacity: 0.6;
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+  20% {
+    opacity: 0.6;
+  }
+
+  30% {
+    opacity: 1;
+  }
+
+  40% {
+    opacity: 0.3;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  60% {
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 0.6;
+  }
+
+  80% {
+    opacity: 0.3;
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    rotate: 360deg;
+    opacity: 0.8;
+  }
+}
+
+.custom-animation-bg-changed {
+  background: linear-gradient(
+    232deg,
+    rgba(176, 0, 143, 0.7) 6.48%,
+    rgba(0, 69, 226, 0.7) 93.52%
+  );
+
+  animation: custom-rotate-bg-changed 25s infinite linear;
+}
+
+@keyframes custom-rotate-bg-changed {
+  0% {
+    background: linear-gradient(
+      232deg,
+      rgba(176, 0, 143, 0.7) 6.48%,
+      rgba(0, 69, 226, 0.7) 93.52%
+    );
+  }
+
+  20% {
+    background: linear-gradient(
+      232deg,
+      rgba(141, 20, 125, 0.568) 6.48%,
+      rgba(150, 128, 6, 0.568) 93.52%
+    );
+  }
+
+  40% {
+    background: linear-gradient(
+      232deg,
+      rgba(81, 128, 5, 0.527) 6.48%,
+      rgba(138, 21, 153, 0.7) 93.52%
+    );
+  }
+
+  60% {
+    background: linear-gradient(
+      232deg,
+      rgba(45, 6, 109, 0.568) 6.48%,
+      rgba(45, 241, 71, 0.37) 93.52%
+    );
+  }
+
+  80% {
+    background: linear-gradient(
+      232deg,
+      rgba(176, 0, 144, 0.521) 6.48%,
+      rgba(0, 226, 188, 0.418) 93.52%
+    );
+  }
+
+  100% {
+    background: linear-gradient(
+      232deg,
+      rgba(151, 103, 13, 0.7) 6.48%,
+      rgba(44, 206, 65, 0.527) 93.52%
+    );
+  }
+}
+
+.custom-animation-cross {
+  animation: custom-cross 3s infinite alternate;
+}
+
+@keyframes custom-cross {
+  from {
+    rotate: 90deg;
+  }
+
+  to {
+    rotate: 90deg;
+  }
+}
+
+.custom-animation-running {
+  animation: custom-running 10s infinite alternate;
+}
+
+@keyframes custom-running {
+  0% {
+    right: 0px;
+  }
+
+  100% {
+    right: 180px;
+  }
+}
+
+/* //Footer background custom color */
+.bg-gradient-footer {
+  background: linear-gradient(
+    232deg,
+    rgba(176, 0, 143, 0.1) 6.48%,
+    rgba(0, 69, 226, 0.1) 93.52%
+  );
+}
+
+/* --Header Animation-- */
+
+@-webkit-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+
+  50% {
+    background-position: 100% 19%;
+  }
+
+  100% {
+    background-position: 0% 82%;
+  }
+}
+
+@-moz-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+
+  50% {
+    background-position: 100% 19%;
+  }
+
+  100% {
+    background-position: 0% 82%;
+  }
+}
+
+@-o-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+
+  50% {
+    background-position: 100% 19%;
+  }
+
+  100% {
+    background-position: 0% 82%;
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+
+  50% {
+    background-position: 100% 19%;
+  }
+
+  100% {
+    background-position: 0% 82%;
+  }
+}
+
+/* --footer social media links animation-- */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-socialMediaLinks {
+  animation: spin 3s linear infinite;
+}
+
+.go-to-top-animation {
+  animation: go-to-top-animation-header linear;
+  animation-range: contain;
+  animation-timeline: view();
+  opacity: 1;
+}
+
+@keyframes go-to-top-animation-header {
+  to {
+    opacity: 1;
+  }
+  from {
+    opacity: 0;
+  }
+}
+
+.go-to-top-animation-header {
+  animation: go-to-top-animation-header linear;
+  animation-range: cover;
+  animation-timeline: view();
+  opacity: 1;
+}
+
+@keyframes go-to-top-animation-header {
+  to {
+    opacity: 1;
+  }
+  from {
+    opacity: 0;
+  }
+}
+
+/* mobile menu custom css */
+
+.mobile-menu-container {
+  background: rgba(255, 255, 255, 0.1);
+
+  backdrop-filter: blur(150px);
+}
+
+.social-media-links {
+  animation: pulse-gradually ease-in-out infinite alternate;
+}
+
+@keyframes pulse-gradually {
+  0% {
+    opacity: 0.5;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.image-drag-none {
+  user-drag: none;
+  -webkit-user-drag: none;
+}
