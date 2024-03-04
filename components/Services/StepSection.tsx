@@ -1,8 +1,8 @@
 import React from "react";
 import OurJourney from "../assets/svg/OurJourney";
 import Image from "next/image";
-import stepMd from "../assets/images/stepMd.png";
-import stepSm from "../assets/images/stepSm.png";
+import stepMd from "../assets/images/ourJourney.png";
+import stepSm from "../assets/images/ourJourneyMobile.png";
 
 const StepSection = () => {
   return (
@@ -15,7 +15,7 @@ const StepSection = () => {
       </div>
 
       {/* top heading */}
-      <div className="text-white ">
+      <div className="text-black ">
         <h2 className="[font-size:_clamp(1.5em,4vw,2.8em)] text-center">
           Our Journey
         </h2>

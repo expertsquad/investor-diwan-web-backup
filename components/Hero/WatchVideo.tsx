@@ -7,7 +7,7 @@ import YoutubeVideo from "../Shared/YoutubeVideo";
 
 const WatchVideo = () => {
   return (
-    <div className="text-white md:my-80 my-0 max-w-[1280px] mx-auto flex items-center justify-center h-full px-4">
+    <div className="text-black md:my-80 my-0 max-w-[1280px] mx-auto flex items-center justify-center h-full px-4">
       <div className="flex items-center justify-center h-[500px]">
         <div className="w-full relative ">
           {/* video background */}

@@ -17,7 +17,7 @@ import LineBG from "../assets/svg/LineBG";
 
 const TestComponent = () => {
   return (
-    <section className="text-white mb-80 max-w-[1280px] mx-auto">
+    <section className="text-black mb-80 max-w-[1280px] mx-auto">
       {/* blur bg and feature text */}
 
       <div className="md:h-20 md:w-44 h-20 w-20 bg-[#AE00FF]  md:blur-[140px] blur-[70px]    "></div>
@@ -52,7 +52,7 @@ const TestComponent = () => {
               <IconDeviceMobile className="text-black " />
             </div>
             <h3 className="[font-size:_clamp(1em,4vw,2.1em)]">
-            Swipe & Save{" "}
+              Swipe & Save{" "}
             </h3>
             <p className="[font-size:_clamp(0.7em,4vw,1.1em)]">
               Commonly used in the graphic, print & publishing industris for

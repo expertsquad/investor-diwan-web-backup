@@ -16,7 +16,7 @@ const ExpertImgBg = () => {
           width="326.316"
           height="538.947"
           rx="21.0526"
-          fill="white"
+          fill="black"
           fillOpacity="0.14"
           shape-rendering="crispEdges"
         />
@@ -28,7 +28,7 @@ const ExpertImgBg = () => {
           width="326"
           height="290"
           rx="21.0526"
-          fill="white"
+          fill="black"
           fillOpacity="0.1"
           shape-rendering="crispEdges"
         />

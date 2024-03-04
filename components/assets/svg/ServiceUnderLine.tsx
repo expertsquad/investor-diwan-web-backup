@@ -12,7 +12,7 @@ const ServiceUnderLine = () => {
     >
       <path
         d="M1.9908 20.7695C1.9908 20.7695 238.074 -5.42442 308.978 5.13058"
-        stroke="white"
+        stroke="black"
         strokeWidth="4"
         strokeLinecap="round"
       />

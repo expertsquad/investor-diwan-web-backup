@@ -20,7 +20,7 @@ const TalkToExpert = () => {
           {" "}
           <div className="md:h-32 md:w-32 h-10 w-10 bg-[#AE00FF]  md:blur-[160px] blur-[50px] opacity-50  "></div>
         </div>
-        <div className="max-w-[700px] mx-auto text-white text-center flex flex-col items-center justify-center gap-7">
+        <div className="max-w-[700px] mx-auto text-black text-center flex flex-col items-center justify-center gap-7">
           <h4 className=" [font-size:_clamp(0.8em,4vw,1.1em)] tracking-[10px]">
             GREAT DEAL
           </h4>
@@ -54,7 +54,7 @@ const TalkToExpert = () => {
         </div>
 
         {/* list style  */}
-        <div className="text-white md:w-1/2 w-full p-5 md:p-0">
+        <div className="text-black md:w-1/2 w-full p-5 md:p-0">
           {serviceData.map((data, index) => (
             <div
               key={index}
@@ -65,7 +65,7 @@ const TalkToExpert = () => {
                   {data.title}
                 </li>
               </ul>
-              <p className="mb-5 md:mb-8 [font-size:_clamp(0.7em,4vw,1em)] text-white text-opacity-70 font-normal ">
+              <p className="mb-5 md:mb-8 [font-size:_clamp(0.7em,4vw,1em)] text-black text-opacity-70 font-normal ">
                 {data.description}
               </p>
             </div>

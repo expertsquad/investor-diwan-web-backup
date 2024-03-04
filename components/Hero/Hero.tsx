@@ -41,8 +41,8 @@ const Hero = () => {
           <div className="h-[288px] w-[288px] bg-[#AE00FF] blur-[150px] absolute top-[-300px] left-[-80px] z-10"></div>
 
           {/* rotate animation big one */}
-          {/* <div className="h-12 w-12 md:h-16 md:w-16 -4 top-16 right-0 md:top-28 md:right-0 opacity-60 custom-animation-rotate absolute rounded-sm z-10"></div>
-          <div className="h-6 w-6 md:h-8 md:w-8 -4 top-16 right-0 md:top-28 md:right-40 opacity-40 custom-animation-rotate absolute rounded-xl z-10"></div> */}
+          <div className="hidden h-12 w-12 md:h-16 md:w-16 -4 top-16 right-0 md:top-28 md:right-0 opacity-60  absolute rounded-sm z-10"></div>
+          <div className="h-6 w-6 md:h-8 md:w-8 -4 top-16 right-0 md:top-28 md:right-40 opacity-40  absolute rounded-xl z-10"></div>
 
           {/* rotate animation running  */}
           <div className="overflow-hidden z-10">
@@ -50,7 +50,7 @@ const Hero = () => {
           </div>
 
           {/* rotate animation */}
-          <div className="h-8 w-8 md:h-12 md:w-12 top-80 right-0 md:top-80 md:right-40 opacity-10 custom-animation-rotate absolute hidden md:block rounded-sm z-10">
+          <div className=" h-8 w-8 md:h-12 md:w-12 top-80 right-0 md:top-80 md:right-40 opacity-10  absolute hidden md:block rounded-sm z-10">
             <Crosssvg />
           </div>
         </div>
@@ -59,45 +59,16 @@ const Hero = () => {
         <div className="max-w-[1280px] md:h-[700px] h-[900px] lg:px-0   mx-auto flex md:flex-row flex-col-reverse items-center md:justify-between justify-center md:relative static  z-30 px-5  gap-5 md:mt-20  ">
           <div className="md:w-1/2 w-full flex flex-col items-center justify-center md:text-start text-center  md:absolute  static md:top-[200px] top-0 left-0 ">
             <h1
-              className={`[font-size:_clamp(1.6em,4vw,3.2em)] leading-tight text-white ${cinzel.className}`}
+              className={`[font-size:_clamp(1.6em,4vw,3.2em)] leading-tight text-black ${cinzel.className}`}
             >
               Embark on your journey to financial prosperity{" "}
-              <span className="text-fuchsia-400 ">with us!</span>
+              <span className="text-[#B0008F] ">with us!</span>
             </h1>
-            <p className="text-base text-fuchsia-50 text-opacity-70 [font-size:_clamp(0.7em,40vw,1.1em)] mt-5">
+            <p className="text-base text-black text-opacity-70 [font-size:_clamp(0.7em,40vw,1.1em)] mt-5">
               Where Every Spend Becomes An Investment, Transforming Transactions Into Tomorrow&apos;s Wealth.
             </p>
-            <div className="text-white mt-5 w-full ">
-              <div className="flex  gap-5 w-full md:justify-start justify-center mb-5 mt-5">
-                {/* get it on android  */}
-                <div className="cursor-pointer flex items-center justify-center px-3 py-2  md:py-3 md:px-8 gap-5 bg-white bg-opacity-10 hover:bg-opacity-20 transition-all rounded-lg">
-                  <div>
-                    <Image src={playStore} alt="Play Store" />
-                  </div>
-                  <div>
-                    <p className=" uppercase [font-size:_clamp(0.7em,4vw,1em)] ">
-                      Get it on
-                    </p>
-                    <strong className="[font-size:_clamp(0.7em,4vw,1em)]">
-                      Google Play
-                    </strong>
-                  </div>
-                </div>
-                {/* get it on ios  */}
-                <div className="cursor-pointer flex items-center justify-center px-3 py-2  md:py-3 md:px-8 gap-5 bg-white bg-opacity-10 hover:bg-opacity-20 transition-all rounded-lg">
-                  <div>
-                    <Image src={appleStore} alt="Play Store" />
-                  </div>
-                  <div>
-                    <p className=" uppercase [font-size:_clamp(0.7em,4vw,1em)] ">
-                      Get it on
-                    </p>
-                    <strong className="[font-size:_clamp(0.7em,4vw,1em)]">
-                      App Store
-                    </strong>
-                  </div>
-                </div>
-              </div>
+            <div className="text-black mt-5 w-full ">
+
 
               {/* small animation */}
 
@@ -106,14 +77,14 @@ const Hero = () => {
                   <DotBG />
                 </div>
               </div>
-              <div className="h-[120px] w-[120px] bg-[#AE00FF] hidden md:block blur-[140px]   "></div>
+              <div className="h-[120px] w-[120px] bg-[#AE00FF] hidden md:block blur-[140px]"></div>
             </div>
           </div>
-          <div className="text-white md:w-1/2 w-[320px] flex items-center justify-items-center md:absolute  static right-0 overflow-hidden  ">
+          <div className="text-black md:w-1/2 w-[320px] flex items-center justify-items-center md:absolute  static right-0 overflow-hidden  ">
             <Image
               src={heroImg}
               alt="Hero Images"
-              // sizes="(max-width: 600px) 30vw, (max-width: 1200px) 50vw, 33vw"
+            // sizes="(max-width: 600px) 30vw, (max-width: 1200px) 50vw, 33vw"
             ></Image>
           </div>
         </div>

@@ -33,17 +33,17 @@ const ThreeReason = () => {
 
   return (
     <div className=" flex flex-col gap-3 p-8 md:w-1/2 w-full h-[500px]">
-      <h6 className="text-sm md:text-xl text-white">GET STARTED IN MINUTES</h6>
-      <h5 className="text-white font-bold text-[24px] md:text-[30px] lg:text-[40px] my-[15px]">
+      <h6 className="text-sm md:text-xl text-black">GET STARTED IN MINUTES</h6>
+      <h5 className="text-black font-bold text-[24px] md:text-[30px] lg:text-[40px] my-[15px]">
         3 Main Reason to Choose Us.
       </h5>
       <div>
         <Image src={threeReasonLineImg} alt="Three reason line image" />
       </div>
-      <h5 className="text-white text-xl md:text-3xl font-medium">
+      <h5 className="text-black text-xl md:text-3xl font-medium">
         Financial Empowerment in just a Few Clicks
       </h5>
-      <p className="[font-size:_clamp(14px,4vw,16px)] mt-4 md:mt-7 text-white text-opacity-70 leading-7">
+      <p className="[font-size:_clamp(14px,4vw,16px)] mt-4 md:mt-7 text-black text-opacity-70 leading-7">
         Explore a new era of accessible and inclusive investing with The
         Investor Diwan. Redefine your financial journey in just a few clicks—our
         streamlined process takes just 5 minutes, making investing accessible,
@@ -52,7 +52,7 @@ const ThreeReason = () => {
 
       {/* collapsible  */}
 
-      <div className="w-full mt-6 mb-56 text-white">
+      <div className="w-full mt-6 mb-56 text-black">
         {sections.map((section, index) => (
           <div
             key={index}
@@ -66,9 +66,8 @@ const ThreeReason = () => {
               <IconChevronDown />
             </p>
             <p
-              className={`pt-1 pb-3 px-4 ${
-                openSection === index ? "block" : "hidden"
-              }`}
+              className={`pt-1 pb-3 px-4 ${openSection === index ? "block" : "hidden"
+                }`}
             >
               {section.content}
             </p>

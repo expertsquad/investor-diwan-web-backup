@@ -1,16 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
-import footerLogo from "@/components/assets/logo-name.svg";
+import footerLogo from "@/components/assets/images/studentDiwan_logo.png";
 import playStore from "@/components/assets/play-store.svg";
 import appleStore from "@/components/assets/apple-store-white.svg";
 import { footerLinks } from "@/constants";
 import SocialMediaLinks from "./SocialMediaLinks";
 import SubscriptionTemplate from "./SubscriptionTemplate";
+import AppleBlack from "../assets/svg/AppleBlack";
 
 const Footer = () => {
   return (
     <footer className=" bg-gradient-footer bg-transparent p-5 md:p-0">
-      <div className="  text-white max-w-[1280px] mx-auto relative">
+      <div className="  text-black max-w-[1280px] mx-auto relative">
         {/* //--Subscribe Our Application-- */}
         <div>
           <SubscriptionTemplate />
@@ -20,10 +21,12 @@ const Footer = () => {
           <div className="basis-1/4">
             {/* -Image | Logo | Social */}
             <div className="flex items-center justify-center md:justify-start">
-              <Image src={footerLogo} alt="footer logo" />
+              <div className="w-40">
+                <Image src={footerLogo} alt="footer logo" />
+              </div>
             </div>
-            <p className="text-center md:text-start py-7 text-white text-opacity-70">
-            The Investor Diwan is a FinTech innovator revolutionizing investing, turning everyday spending into opportunities for financial growth. Easily invest in stocks and mutual funds, making financial empowerment accessible to all.
+            <p className="text-center md:text-start py-7 text-black text-opacity-70">
+              The Investor Diwan is a FinTech innovator revolutionizing investing, turning everyday spending into opportunities for financial growth. Easily invest in stocks and mutual funds, making financial empowerment accessible to all.
             </p>
             <div className="hidden md:block">
               <SocialMediaLinks />
@@ -42,7 +45,7 @@ const Footer = () => {
                   <Link
                     key={index}
                     href={item.url}
-                    className="text-[#fff] text-opacity-70 text-sm flex flex-col hover:underline"
+                    className="text-black text-opacity-70 text-sm flex flex-col hover:underline"
                   >
                     {item.title}
                   </Link>
@@ -54,7 +57,7 @@ const Footer = () => {
           <div className="basis-1/4 flex items-end justify-center md:justify-start md:flex-col gap-7 mt-5 md:mt-0">
             <Link
               href={"/"}
-              className="flex items-center justify-center gap-3 bg-white bg-opacity-10 hover:bg-opacity-20 transition-all p-2 rounded-md w-40"
+              className="flex items-center justify-center gap-3 bg-black bg-opacity-10 hover:bg-opacity-20 transition-all p-2 rounded-md w-40"
             >
               <Image src={playStore} alt="Play Store" />
               <div className="flex flex-col">
@@ -64,9 +67,10 @@ const Footer = () => {
             </Link>
             <Link
               href={"/"}
-              className="flex items-center justify-center gap-3 bg-white bg-opacity-10 p-2 rounded-md w-40 hover:bg-opacity-20 transition-all"
+              className="flex items-center justify-center gap-3 bg-black bg-opacity-10 p-2 rounded-md w-40 hover:bg-opacity-20 transition-all"
             >
-              <Image src={appleStore} alt="appleStore" />
+
+              <AppleBlack />
               <div className="flex flex-col">
                 <span className="text-[11px]">Download on the</span>
                 <b>App Store</b>
@@ -80,11 +84,11 @@ const Footer = () => {
           <SocialMediaLinks />
         </div>
         <div className="flex flex-col-reverse gap-3 md:flex-row md:justify-between md:border-t md:pt-5 border-white border-opacity-20 pb-5 px-5 lg:px-0">
-          <div className="text-white text-opacity-60 text-center">
+          <div className="text-black text-opacity-60 text-center">
             <p>
               Investor Diwan created by{" "}
               <Link
-                className="underline hover:text-white hover:font-bold transition-all whitespace-nowrap"
+                className="underline hover:text-black hover:font-bold transition-all whitespace-nowrap"
                 target="_blank"
                 href={"https://expertsquad.net/"}
               >
@@ -92,7 +96,7 @@ const Footer = () => {
               </Link>
             </p>
           </div>
-          <div className="flex items-center justify-center gap-8 text-white text-opacity-60">
+          <div className="flex items-center justify-center gap-8 text-black text-opacity-60">
             <span>Privacy</span>
             <span>Security</span>
             <span>Terms</span>

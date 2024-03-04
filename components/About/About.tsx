@@ -6,13 +6,13 @@ import bridgeDesktop from "@/components/assets/bridge-Desktop.svg";
 import movementImageDesktop from "@/components/assets/movementImage-Desktop.svg";
 import userPageDemo from "@/components/assets/userPageDemo.svg";
 import { yourSuccessDemoData } from "@/constants";
-import earthImg from "@/components/assets/images/earthImg.png";
+import earthImg from "@/components/assets/images/world.png";
 import CustomSection from "./CustomSection";
 
 const About = () => {
   return (
-    <div className="bg-[#14001E] px-5 md:px-4 max-w-[1280px] mx-auto mt-[150px] md:mt-44 lg:mt-56 mb-8 md:mb-48">
-      <title className="text-center text-[22px] md:text-5xl text-white mb-2.5 md:mb-5 font-bold ">
+    <div className="bg-white px-5 md:px-4 max-w-[1280px] mx-auto mt-[150px] md:mt-44 lg:mt-56 mb-8 md:mb-48">
+      <title className="text-center text-[22px] md:text-5xl text-black mb-2.5 md:mb-5 font-bold ">
         Investor Diwan | About
       </title>
 
@@ -22,28 +22,28 @@ const About = () => {
         <div className="h-[288px] w-[288px] bg-[#AE00FF] hidden md:block blur-[290px] absolute left-[-500px] translate-x-1/2 "></div>
         <div className="relative flex flex-col items-center justify-center">
           <div className="custom-animation-360deg-opacity max-w-[250px] md:max-w-[750px]">
-            <Image src={earthImg} alt="service section earth img" />
+            <Image src={earthImg} alt="service section earth img" className="opacity-40" />
           </div>
           <div className="flex items-center justify-center gap-5 flex-col absolute">
-            <h3 className="text-center text-[22px] md:text-5xl text-white mb-2.5 md:mb-5 font-bold ">
+            <h3 className="text-center text-[22px] md:text-5xl text-black mb-2.5 md:mb-5 font-bold ">
               About Investor Diwan
             </h3>
             <div className="flex items-center justify-center [width:clamp(250px,50vw,500px)]">
               <Image src={lineImage} alt="line image" />
             </div>
-            <p className="text-sm md:text-[18px] text-white text-opacity-70 text-center mt-4 md:mt-8 md:w-[900px] leading-8">
-            The Investor Diwan is revolutionizing the FinTech landscape with its pioneering micro-investing platform, the first of its kind in the MENA region. Our platform is designed to make investing effortless and accessible, breaking down traditional barriers and integrating investment opportunities into everyday financial activities.
+            <p className="text-sm md:text-[18px] text-black text-opacity-70 text-center mt-4 md:mt-8 md:w-[900px] leading-8">
+              The Investor Diwan is revolutionizing the FinTech landscape with its pioneering micro-investing platform, the first of its kind in the MENA region. Our platform is designed to make investing effortless and accessible, breaking down traditional barriers and integrating investment opportunities into everyday financial activities.
             </p>
           </div>
         </div>
       </div>
       {/* //--spark of innovation-- */}
-      <div className="bg-white bg-opacity-10 px-5 py-[30px] md:px-10 md:py-16 lg:px-16 lg:py-24 rounded-md mb-6 md:mb-16 ">
-        <h4 className="text-[18px] md:text-[50px] font-bold text-center text-white animate-bounce">
-        Igniting the Spark of Innovation
+      <div className="bg-black bg-opacity-10 px-5 py-[30px] md:px-10 md:py-16 lg:px-16 lg:py-24 rounded-md mb-6 md:mb-16 ">
+        <h4 className="text-[18px] md:text-[50px] font-bold text-center text-black animate-bounce">
+          Igniting the Spark of Innovation
         </h4>
-        <p className="text-white text-opacity-70 text-center text-sm md:text-[18px] leading-tight mt-5 md:mt-7">
-        Our journey at The Investor Diwan began with more than just a vision; it started with a spark of innovation. Rooted in the vibrant heart of Qatar, a diverse group of visionary entrepreneurs and tech wizards came together, united by a shared passion for finance and technology. This convergence of minds gave birth to a groundbreaking idea – to transform stock investing from a distant dream into an integral part of everyday life.
+        <p className="text-black text-opacity-70 text-center text-sm md:text-[18px] leading-tight mt-5 md:mt-7">
+          Our journey at The Investor Diwan began with more than just a vision; it started with a spark of innovation. Rooted in the vibrant heart of Qatar, a diverse group of visionary entrepreneurs and tech wizards came together, united by a shared passion for finance and technology. This convergence of minds gave birth to a groundbreaking idea – to transform stock investing from a distant dream into an integral part of everyday life.
         </p>
       </div>
 
@@ -55,7 +55,7 @@ const About = () => {
       <CustomSection
         title="Compass and Map for Financial Navigation"
         text="The Investor Diwan emerged from the fusion of dreams and practicality, a pioneering platform designed to be the compass and map for navigating the financial world. Our team, a synergy of financial enthusiasts and tech innovators, dedicated themselves to simplifying investing. The objective was clear – to make entering the stock market as effortless and ingrained in daily routines as checking one’s phone."
-        image={mapDesktop}
+        image={earthImg}
         reverse
       />
 
@@ -67,7 +67,7 @@ const About = () => {
       {/* //--Pathway of Financial ETC-- */}
       <CustomSection
         title="A Pathway for All to Navigate Financial Waters"
-      text="Our initiative extended beyond merely opening doors to the stock market; it was about creating a pathway that is inviting and comprehensible to everyone. Whether you are a young professional taking your first step into investing or a seasoned investor seeking smarter portfolio expansion, The Investor Diwan stands as a beacon, guiding individuals through the intricacies of investing."
+        text="Our initiative extended beyond merely opening doors to the stock market; it was about creating a pathway that is inviting and comprehensible to everyone. Whether you are a young professional taking your first step into investing or a seasoned investor seeking smarter portfolio expansion, The Investor Diwan stands as a beacon, guiding individuals through the intricacies of investing."
         image={dollarMapDesktop}
         reverse
         imageOrder
@@ -103,15 +103,15 @@ const About = () => {
         <div className="md:h-40 md:w-40 h-12 w-12 bg-[#AE00FF]  md:blur-[190px] blur-[60px]    "></div>
       </div>
       {/* //--Your Success, Our Commitment-- */}
-      <div className="px-5 md:px-10 pt-[45px] flex flex-col md:grid md:grid-cols-7 md:gap-7 bg-white bg-opacity-10 rounded-2xl md:mb-20 mb-44">
+      <div className="px-5 md:px-10 pt-[45px] flex flex-col md:grid md:grid-cols-7 md:gap-7 bg-black bg-opacity-10 rounded-2xl md:mb-20 mb-44">
         <div className="col-span-3">
-          <span className="text-white font-medium text-center md:text-left md:mb-5">
+          <span className="text-black font-medium text-center md:text-left md:mb-5">
             OUR GOALS
           </span>
-          <h6 className="text-white font-bold text-xl md:text-[44px] my-2.5 md:mb-5 leading-[45px]">
+          <h6 className="text-black font-bold text-xl md:text-[44px] my-2.5 md:mb-5 leading-[45px]">
             Your Success, Our Commitment
           </h6>
-          <p className="text-white text-sm md:text-[18px] mb-5 md:mb-16">
+          <p className="text-black text-sm md:text-[18px] mb-5 md:mb-16">
             The Investor Diwan is not just about investing , it&apos;s about
             investing in yourself. Join us today and unlock the doors to
             financial growth and confidence. Your future in Investing starts
@@ -125,18 +125,18 @@ const About = () => {
             />
           </div>
         </div>
-        <div className="text-white col-span-4">
+        <div className="text-black col-span-4">
           {yourSuccessDemoData.map((data, index) => (
             <div
               key={index}
               className="border-b border-b-white border-opacity-30 mb-10"
             >
               <ul className="">
-                <li className="text-lg md:text-[20px] mb-2 font-medium text-white">
+                <li className="text-lg md:text-[20px] mb-2 font-medium text-black">
                   {data.title}
                 </li>
               </ul>
-              <p className="mb-5 md:mb-8 text-sm md:text-[16px] text-white text-opacity-70 font-normal">
+              <p className="mb-5 md:mb-8 text-sm md:text-[16px] text-black text-opacity-70 font-normal">
                 {data.description}
               </p>
             </div>

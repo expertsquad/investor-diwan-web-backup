@@ -2,8 +2,8 @@
 import React from "react";
 import OurJourney from "../assets/svg/OurJourney";
 import Image from "next/image";
-import stepMd from "../assets/images/stepMd.png";
-import stepSm from "../assets/images/stepSm.png";
+import stepMd from "../assets/images/ourJourney.png";
+import stepSm from "../assets/images/ourJourneyMobile.png";
 
 const Step = () => {
   return (
@@ -16,7 +16,7 @@ const Step = () => {
       </div>
 
       {/* top heading */}
-      <div className="text-white ">
+      <div className="text-black ">
         <h2 className="[font-size:_clamp(2em,4vw,2.8em)] text-center ">
           Our Journey
         </h2>
@@ -24,7 +24,7 @@ const Step = () => {
           <OurJourney />
         </div>
         <div className="flex items-center justify-center">
-          <div className="md:h-20 md:w-44 h-20 w-20 bg-[#AE00FF]  md:blur-[160px] blur-[70px]    "></div>
+          <div className="md:h-20 md:w-44 h-20 w-20 bg-[#AE00FF]  md:blur-[160px] blur-[70px]"></div>
         </div>
       </div>
 

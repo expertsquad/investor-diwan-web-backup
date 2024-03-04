@@ -1,5 +1,5 @@
 import React from "react";
-import FeatureBG from "../assets/svg/FeatureBG";
+import FeatureBG from "../assets/images/feautures.png";
 import Image from "next/image";
 import menWithPen from "@/components/assets/images/manwithpen.png";
 import ManWithPenToCard from "../assets/svg/ManWithPenToCard";
@@ -21,12 +21,15 @@ import ThreeReason from "../Hero/ThreeReason";
 
 const FeatureSection = () => {
   return (
-    <section className="text-white  max-w-[1280px] mx-auto  ">
+    <section className="text-black  max-w-[1280px] mx-auto  ">
       {/* blur bg and feature text */}
 
-      <div className="md:h-20 md:w-60 h-20 w-20 bg-[#AE00FF]  md:blur-[160px] blur-[70px] hidden md:block    "></div>
+      <div className="md:h-20 md:w-60 h-20 w-20 bg-[#AE00FF]  md:blur-[160px] blur-[70px] hidden md:block"></div>
       <div className="flex items-center justify-center ">
-        <FeatureBG />
+        {/* <FeatureBG /> */}
+        <div>
+          <Image src={FeatureBG} alt="" />
+        </div>
       </div>
       {/* men with pen curved design start */}
 
@@ -44,7 +47,7 @@ const FeatureSection = () => {
         <div className="flex justify-between gap-7 md:flex-row flex-col absolute w-full top-[200px] ">
           {/* img */}
           <div className="  md:w-1/2 w-full flex items-center justify-center ">
-            <div className="h-80 w-80 bg-gradient-to-l from-[#b0008fb3] to-[#0045e2b3] custom-animation-bg-changed rounded-full flex items-center justify-center overflow-hidden   ">
+            <div className="h-80 w-80 bg-gradient-to-l from-[#b0008fb3] to-[#0045e2b3] custom-animation-bg-changed rounded-full flex items-center justify-center overflow-hidden">
               <div className="h-56 w-56 ">
                 <Image src={oneClickBalanceView} alt="One Click Balance View" />
               </div>
@@ -80,8 +83,8 @@ const FeatureSection = () => {
         <div className="flex justify-between gap-7 md:flex-row flex-col-reverse  absolute w-full  top-[850px] ">
           {/* content  */}
           <div className="flex flex-col gap-3 p-8 md:w-1/2 w-full ">
-            <div className="bg-white w-fit rounded-full p-4 ">
-              <IconStack2 className="text-black " />
+            <div className="bg-black w-fit rounded-full p-4 ">
+              <IconStack2 className="text-white" />
             </div>
             <h3 className="[font-size:_clamp(1.5em,4vw,2.1em)]">
               Watch Your Savings Grow
@@ -134,8 +137,8 @@ const FeatureSection = () => {
           </div>
           {/* content  */}
           <div className="flex flex-col gap-3 p-8 md:w-1/2 w-full">
-            <div className="bg-white w-fit rounded-full p-4 ">
-              <IconStar className="text-black " />
+            <div className="bg-black w-fit rounded-full p-4 ">
+              <IconStar className="text-white " />
             </div>
             <h3 className="[font-size:_clamp(1.5em,4vw,2.1em)]">
               Educate, Invest, Thrive

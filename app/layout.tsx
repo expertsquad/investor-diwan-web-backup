@@ -18,8 +18,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${dmSans.className} bg-[#14001E]  scroll-smooth`}>
+    <html lang="en" data-theme="light">
+      <body className={`${dmSans.className}   scroll-smooth overflow-y-auto overflow-x-hidden`}>
         <Header />
 
         {children}

@@ -10,7 +10,7 @@ import LeftLine from "../assets/svg/LeftLine";
 
 const ServiceFeature = () => {
   return (
-    <section className="text-white  ">
+    <section className="text-black  ">
       {/* feature section start */}
 
       <div className="flex items-center justify-center flex-col gap-4 ">
@@ -42,7 +42,7 @@ const ServiceFeature = () => {
           <div className="md:w-4/12 w-full flex items-center justify-center md:flex-row flex-col ">
             <div className="md:h-24 md:w-24 h-10 w-10 bg-[#AE00FF]  md:blur-[130px] blur-[50px]   "></div>
             <h2 className="[font-size:_clamp(1.3em,4vw,1.7em)] md:text-right text-center">
-            Swipe & Invest
+              Swipe & Invest
             </h2>
           </div>
 
@@ -57,14 +57,14 @@ const ServiceFeature = () => {
           </div>
 
           <div className="md:w-5/12 md:text-left text-center w-full [font-size:_clamp(0.6em,4vw,1em)]">
-          Invest effortlessly with the swipe of your card, seamlessly integrating investing into your daily transactions.
+            Invest effortlessly with the swipe of your card, seamlessly integrating investing into your daily transactions.
           </div>
         </div>
 
         {/* card 2 */}
         <div className="flex md:items-center md:justify-start justify-center  items-center md:gap-12 gap-4  md:flex-row flex-col-reverse  w-full group p-7  ">
           <div className="md:w-5/12 md:text-end text-center w-full [font-size:_clamp(0.6em,4vw,1em)]">
-          Enjoy effortless savings as you shop, making financial growth a natural by product of your everyday spending habits.
+            Enjoy effortless savings as you shop, making financial growth a natural by product of your everyday spending habits.
           </div>
 
           <div className=" bg-gradient-to-tr from-purple-700 via-blue-900 to-green-950 flex items-center justify-center md:p-2 p-1  rounded-full  ">
@@ -79,7 +79,7 @@ const ServiceFeature = () => {
 
           <div className="md:w-4/12 w-full flex items-center justify-center md:flex-row flex-col-reverse ">
             <h2 className="[font-size:_clamp(1.3em,4vw,1.7em)] md:text-left text-center">
-            Save as You Shop
+              Save as You Shop
             </h2>
             <div className="md:h-24 md:w-24 h-10 w-10 bg-[#AE00FF]  md:blur-[130px] blur-[50px]   "></div>
           </div>
@@ -89,7 +89,7 @@ const ServiceFeature = () => {
           <div className="md:w-4/12 w-full flex items-center justify-center md:flex-row flex-col ">
             <div className="md:h-24 md:w-24 h-10 w-10 bg-[#AE00FF]  md:blur-[140px] blur-[50px]   "></div>
             <h2 className="[font-size:_clamp(1.3em,4vw,1.7em)]  md:text-right text-center">
-            Early Returns, Instant Gratification
+              Early Returns, Instant Gratification
             </h2>
           </div>
 
@@ -104,14 +104,14 @@ const ServiceFeature = () => {
           </div>
 
           <div className="md:w-5/12 md:text-left text-center w-full [font-size:_clamp(0.6em,4vw,1em)]">
-          Get returns on your savings even before making significant investments, ensuring your money works for you from the start.
+            Get returns on your savings even before making significant investments, ensuring your money works for you from the start.
           </div>
         </div>
 
         {/* card 4 */}
         <div className="flex md:items-center md:justify-start justify-center  items-center md:gap-12 gap-4  md:flex-row flex-col-reverse  w-full group   p-7 ">
           <div className="md:w-5/12 md:text-right text-center w-full [font-size:_clamp(0.6em,4vw,1em)]">
-          Stay informed with our short, fun, and interactive informational videos, demystifying investment concepts for an engaging learning experience.
+            Stay informed with our short, fun, and interactive informational videos, demystifying investment concepts for an engaging learning experience.
           </div>
 
           <div className=" bg-gradient-to-tr from-purple-700 via-blue-900 to-green-950 flex items-center justify-center md:p-2 p-1  rounded-full ">
@@ -126,7 +126,7 @@ const ServiceFeature = () => {
 
           <div className="md:w-4/12 w-full flex items-center justify-center md:flex-row flex-col-reverse ">
             <h2 className="[font-size:_clamp(1.3em,4vw,1.7em)]  md:text-left text-center">
-            Interactive Investment Education
+              Interactive Investment Education
             </h2>
             <div className="md:h-24 md:w-24 h-10 w-10 bg-[#AE00FF]  md:blur-[140px] blur-[50px]   "></div>
           </div>
@@ -136,7 +136,7 @@ const ServiceFeature = () => {
           <div className="md:w-4/12 w-full flex items-center justify-center md:flex-row flex-col ">
             <div className="md:h-24 md:w-24 h-10 w-10 bg-[#AE00FF]  md:blur-[140px] blur-[50px]   "></div>
             <h2 className="[font-size:_clamp(1.3em,4vw,1.7em)]  md:text-right text-center">
-            Daily Investment News Alerts
+              Daily Investment News Alerts
             </h2>
           </div>
 
@@ -151,13 +151,13 @@ const ServiceFeature = () => {
           </div>
 
           <div className="md:w-5/12 md:text-left text-center w-full [font-size:_clamp(0.6em,4vw,1em)]">
-          Stay updated on market trends with daily investment news tailored to your favorite securities, empowering you to make informed decisions.          </div>
+            Stay updated on market trends with daily investment news tailored to your favorite securities, empowering you to make informed decisions.          </div>
         </div>
 
         {/* card 6 */}
         <div className="flex md:items-center md:justify-start justify-center  items-center md:gap-12 gap-4  md:flex-row flex-col-reverse  group w-full   p-7 ">
           <div className="md:w-5/12 md:text-end text-center w-full [font-size:_clamp(0.6em,4vw,1em)]">
-          Start investing with your spare change now, breaking the misconception that you need to wait until a certain age. As a student or at any stage of life, build a substantial portfolio for financial freedom by the time you reach 40.
+            Start investing with your spare change now, breaking the misconception that you need to wait until a certain age. As a student or at any stage of life, build a substantial portfolio for financial freedom by the time you reach 40.
           </div>
 
           <div className=" bg-gradient-to-tr from-purple-700 via-blue-900 to-green-950 flex items-center justify-center md:p-2 p-1  rounded-full ">
@@ -172,7 +172,7 @@ const ServiceFeature = () => {
 
           <div className="md:w-4/12 w-full flex items-center justify-center md:flex-row flex-col-reverse ">
             <h2 className="[font-size:_clamp(1.3em,4vw,1.7em)]  md:text-start text-center">
-            Invest with Spare Change
+              Invest with Spare Change
             </h2>
             <div className="md:h-24 md:w-24 h-10 w-10 bg-[#AE00FF]  md:blur-[140px] blur-[50px]   "></div>
           </div>

@@ -3,8 +3,13 @@
 @tailwind utilities;
 
 body {
-  background-color: #14001e;
+  /* background-color: #14001e; */
+  background-color: #FFF;
 }
+
+/* * {
+  outline: 1px solid red;
+} */
 
 /* all animation  */
 .custom-animation-rotate {
@@ -88,62 +93,48 @@ body {
 }
 
 .custom-animation-bg-changed {
-  background: linear-gradient(
-    232deg,
-    rgba(176, 0, 143, 0.7) 6.48%,
-    rgba(0, 69, 226, 0.7) 93.52%
-  );
+  background: linear-gradient(232deg,
+      rgba(176, 0, 143, 0.7) 6.48%,
+      rgba(0, 69, 226, 0.7) 93.52%);
 
   animation: custom-rotate-bg-changed 25s infinite linear;
 }
 
 @keyframes custom-rotate-bg-changed {
   0% {
-    background: linear-gradient(
-      232deg,
-      rgba(176, 0, 143, 0.7) 6.48%,
-      rgba(0, 69, 226, 0.7) 93.52%
-    );
+    background: linear-gradient(232deg,
+        rgba(176, 0, 143, 0.7) 6.48%,
+        rgba(0, 69, 226, 0.7) 93.52%);
   }
 
   20% {
-    background: linear-gradient(
-      232deg,
-      rgba(141, 20, 125, 0.568) 6.48%,
-      rgba(150, 128, 6, 0.568) 93.52%
-    );
+    background: linear-gradient(232deg,
+        rgba(141, 20, 125, 0.568) 6.48%,
+        rgba(150, 128, 6, 0.568) 93.52%);
   }
 
   40% {
-    background: linear-gradient(
-      232deg,
-      rgba(81, 128, 5, 0.527) 6.48%,
-      rgba(138, 21, 153, 0.7) 93.52%
-    );
+    background: linear-gradient(232deg,
+        rgba(81, 128, 5, 0.527) 6.48%,
+        rgba(138, 21, 153, 0.7) 93.52%);
   }
 
   60% {
-    background: linear-gradient(
-      232deg,
-      rgba(45, 6, 109, 0.568) 6.48%,
-      rgba(45, 241, 71, 0.37) 93.52%
-    );
+    background: linear-gradient(232deg,
+        rgba(45, 6, 109, 0.568) 6.48%,
+        rgba(45, 241, 71, 0.37) 93.52%);
   }
 
   80% {
-    background: linear-gradient(
-      232deg,
-      rgba(176, 0, 144, 0.521) 6.48%,
-      rgba(0, 226, 188, 0.418) 93.52%
-    );
+    background: linear-gradient(232deg,
+        rgba(176, 0, 144, 0.521) 6.48%,
+        rgba(0, 226, 188, 0.418) 93.52%);
   }
 
   100% {
-    background: linear-gradient(
-      232deg,
-      rgba(151, 103, 13, 0.7) 6.48%,
-      rgba(44, 206, 65, 0.527) 93.52%
-    );
+    background: linear-gradient(232deg,
+        rgba(151, 103, 13, 0.7) 6.48%,
+        rgba(44, 206, 65, 0.527) 93.52%);
   }
 }
 
@@ -177,11 +168,9 @@ body {
 
 /* //Footer background custom color */
 .bg-gradient-footer {
-  background: linear-gradient(
-    232deg,
-    rgba(176, 0, 143, 0.1) 6.48%,
-    rgba(0, 69, 226, 0.1) 93.52%
-  );
+  background: linear-gradient(232deg,
+      rgba(176, 0, 143, 0.1) 6.48%,
+      rgba(0, 69, 226, 0.1) 93.52%);
 }
 
 /* --Header Animation-- */
@@ -264,6 +253,7 @@ body {
   to {
     opacity: 1;
   }
+
   from {
     opacity: 0;
   }
@@ -280,6 +270,7 @@ body {
   to {
     opacity: 1;
   }
+
   from {
     opacity: 0;
   }
@@ -301,15 +292,19 @@ body {
   0% {
     opacity: 0.5;
   }
+
   25% {
     opacity: 1;
   }
+
   50% {
     opacity: 0.5;
   }
+
   75% {
     opacity: 0.75;
   }
+
   100% {
     opacity: 1;
   }

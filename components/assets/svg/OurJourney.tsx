@@ -11,7 +11,7 @@ const OurJourney = () => {
     >
       <path
         d="M2.45734 14.0095C2.45734 14.0095 300.884 -8.07493 468.434 9.65839"
-        stroke="white"
+        stroke="black"
         strokeWidth="4"
         strokeLinecap="round"
       />
