@@ -16,7 +16,7 @@ const Form = () => {
               type="text"
               id="hello"
               required
-              className="w-full md:w-[360px] bg-transparent bg-black bg-opacity-10 py-3 md:py-4 pl-5 rounded-full outline-none"
+              className="w-full md:w-[360px]  bg-black bg-opacity-10 py-3 md:py-4 pl-5 rounded-full outline-none"
               placeholder="Your Name"
             />
           </label>
@@ -32,7 +32,7 @@ const Form = () => {
               type="email"
               id="hello"
               required
-              className="w-full md:w-[360px] bg-transparent bg-black bg-opacity-10 py-3 md:py-4 pl-5 rounded-full outline-none"
+              className="w-full md:w-[360px]  bg-black bg-opacity-10 py-3 md:py-4 pl-5 rounded-full outline-none"
               placeholder="example@yourmail.com"
             />
           </label>
@@ -47,7 +47,7 @@ const Form = () => {
             <input
               type="text"
               id="hello"
-              className="w-full md:w-[360px] bg-transparent bg-black bg-opacity-10 py-3 md:py-4 pl-5 rounded-full outline-none"
+              className="w-full md:w-[360px]  bg-black bg-opacity-10 py-3 md:py-4 pl-5 rounded-full outline-none"
               placeholder="Company Name"
             />
           </label>
@@ -61,7 +61,7 @@ const Form = () => {
             SUBJECT
             <div className="relative w-full md:max-w-[360px]">
               <select
-                className="appearance-none w-full md:max-w-[360px] bg-transparent bg-black bg-opacity-10 py-3 md:py-4 pl-5 rounded-full outline-none cursor-pointer"
+                className="appearance-none w-full md:max-w-[360px]  bg-black bg-opacity-10 py-3 md:py-4 pl-5 rounded-full outline-none cursor-pointer"
                 name="whatever"
                 id="frm-whatever"
               >

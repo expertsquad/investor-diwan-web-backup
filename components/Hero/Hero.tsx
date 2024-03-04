@@ -3,8 +3,6 @@ import DropBG from "./DropBG";
 import Crosssvg from "./Crosssvg";
 import Image from "next/image";
 import heroImg from "@/components/assets/images/heroimg.png";
-import appleStore from "@/components/assets/apple-store-white.svg";
-import playStore from "@/components/assets/play-store.svg";
 import DotBG from "../assets/svg/DotBG";
 import MoveToBottom from "../assets/svg/MoveToBottom";
 import { Cinzel } from "next/font/google";
