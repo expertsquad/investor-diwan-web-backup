@@ -3,9 +3,9 @@ import projectLogo from "@/components/assets/projectLogo.svg";
 import employeeLogo from "@/components/assets/employees-logo.svg";
 import clientsLogo from "@/components/assets/clients-logo.svg";
 import awardsLogo from "@/components/assets/awards-logo.svg";
-import Customers from "../assets/svg/customers";
 import Client from "../assets/svg/Client";
 import Awards from "../assets/svg/Awards";
+import Customers from "../assets/svg/Customers";
 
 const CommonSummary = () => {
   return (
