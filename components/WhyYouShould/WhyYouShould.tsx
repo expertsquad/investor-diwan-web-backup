@@ -14,12 +14,10 @@ const WhyYouShould = () => {
       </div>
       <div className="md:px-28 px-5">
         <h2 className="[font-size:_clamp(1.6em,4vw,2.5em)] font-semibold text-center">
-          Discover The Investor Diwan Difference: Transformative Investing Made
-          Simple and Enjoyable!
+          Embrace the Student Diwan Experience: Revolutionizing Education with Innovation and Engagement!
         </h2>
         <p className="[font-size:_clamp(0.7em,4vw,1.1em)] text-center md:px-32 px-10 text-black text-opacity-70 leading-tight mt-5">
-          Your Path to Financial Success Starts Here – Effortless, Rewarding,
-          and Tailored Just for You.
+          Unlock Your Educational Potential – Empowering, Effective, and Customized for Every Learner.
         </p>
       </div>
 
@@ -37,15 +35,13 @@ const WhyYouShould = () => {
             <LotsChoice />
           </div>
           <h3 className="[font-size:_clamp(0.9em,4vw,1.5em)] font-semibold ">
-            Effortless Savings Integration
+            Seamless Learning Integration
           </h3>
           <div>
             <BottomLine />
           </div>
           <p>
-            Seamlessly integrate investing into your lifestyle by effortlessly
-            saving with every purchase, making wealth-building a natural part of
-            your routine.
+            Effortlessly blend education into your daily life with The Student Diwan, turning every moment into a learning opportunity and making knowledge acquisition a seamless part of your routine.
           </p>
         </div>
         {/* item 2 */}
@@ -55,15 +51,13 @@ const WhyYouShould = () => {
             <MinimalRisk />
           </div>
           <h3 className="[font-size:_clamp(0.9em,4vw,1.5em)] font-semibold ">
-            Instant Returns on Spending
+            Instant Knowledge Application
           </h3>
           <div>
             <BottomLine />
           </div>
           <p>
-            Experience the unique advantage of earning returns on your savings
-            even before making substantial investments, ensuring immediate
-            financial gratification.
+            Unlock the power of immediate application with our educational platform, where the lessons you learn today can be applied tomorrow, offering instant enhancement to your academic and life skills.
           </p>
         </div>
 
@@ -74,15 +68,13 @@ const WhyYouShould = () => {
             <HightProfit />
           </div>
           <h3 className="[font-size:_clamp(0.9em,4vw,1.5em)] font-semibold ">
-            Engaging and Informative Experience
+            Interactive and Engaging Learning
           </h3>
           <div>
             <BottomLine />
           </div>
           <p>
-            Stay informed and entertained with our short, fun, and interactive
-            informational videos, making learning about investments a delightful
-            experience.
+            Dive into our dynamic, short, and interactive lessons that make acquiring knowledge an enjoyable and captivating experience, ensuring that learning never feels like a chore.
           </p>
         </div>
 
@@ -93,15 +85,13 @@ const WhyYouShould = () => {
             <Legal />
           </div>
           <h3 className="[font-size:_clamp(0.9em,4vw,1.5em)] font-semibold ">
-            Invest with Spare Change Today
+            Start Your Educational Journey with Us
           </h3>
           <div>
             <BottomLine />
           </div>
           <p>
-            Break free from the misconception that investing is a distant goal.
-            Start building your portfolio now with spare change, ensuring
-            financial independence at an early stage of life.
+            Dispelling the myth that education is a monumental task, The Student Diwan invites you to begin your journey with small, manageable steps, paving the way to comprehensive knowledge and future success.
           </p>
         </div>
       </div>

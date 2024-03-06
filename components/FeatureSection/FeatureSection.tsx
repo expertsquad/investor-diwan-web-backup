@@ -60,13 +60,10 @@ const FeatureSection = () => {
               <IconDeviceMobile className="text-black " />
             </div>
             <h3 className="[font-size:_clamp(1.5em,4vw,2.1em)]">
-              Swipe & Save{" "}
+              Streamlined Academic Management{" "}
             </h3>
             <p className="[font-size:_clamp(0.7em,4vw,1.1em)]">
-              Effortlessly integrate investing into your lifestyle by swiping
-              your card. Every purchase becomes a step toward financial growth,
-              as we seamlessly convert your spending into investment
-              opportunities.
+              Dive into an intuitive environment where every class, subject, and syllabus is meticulously organized. Our platform simplifies the academic workflow from routine scheduling to exam administration and grades management. Embrace the ease of automated promotions and a system that adapts to your educational needs, ensuring a smooth and efficient learning journey.
             </p>
             <IconArrowNarrowRight />
           </div>
@@ -87,12 +84,10 @@ const FeatureSection = () => {
               <IconStack2 className="text-white" />
             </div>
             <h3 className="[font-size:_clamp(1.5em,4vw,2.1em)]">
-              Watch Your Savings Grow
+              Integrated Financial Ecosystem
             </h3>
             <p className="[font-size:_clamp(0.7em,4vw,1.1em)]">
-              Experience the thrill of immediate returns on your savings, even
-              before making substantial investments. Witness your wealth
-              accumulate effortlessly as your money starts working for you.
+              Navigate the financial aspects of school management with unparalleled ease. From student fee collection to comprehensive expense tracking, our system is designed to optimize your financial operations. A seamless interface allows for straightforward budgeting and financial oversight, empowering your institution to thrive.
             </p>
             <IconArrowNarrowRight />
           </div>
@@ -141,13 +136,10 @@ const FeatureSection = () => {
               <IconStar className="text-white " />
             </div>
             <h3 className="[font-size:_clamp(1.5em,4vw,2.1em)]">
-              Educate, Invest, Thrive
+              Comprehensive School Management
             </h3>
             <p className="[font-size:_clamp(0.7em,4vw,1.1em)]">
-              Access exclusive interactive courses for a limited time,
-              empowering you with the knowledge and skills needed to make
-              informed investment decisions. Take advantage of our user-friendly
-              platform to easily invest and thrive financially.
+              Unleash the full potential of your educational institution with our all-in-one management toolkit. From library to session management, our platform brings every resource at your fingertips. Enhanced by a digital noticeboard and a robust school manager, our system fosters a connected and efficient educational community.
             </p>
             <IconArrowNarrowRight />
           </div>

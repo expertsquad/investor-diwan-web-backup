@@ -13,11 +13,11 @@ const BestInnovations = () => {
       </div>
       <div className="md:px-28 px-5">
         <h2 className="[font-size:_clamp(1.6em,4vw,2.5em)] text-black font-semibold text-center">
-          Our Best Innovations for Your Financial Growth
+          Explore The Student Diwan Advantage: Transforming Education with Passion and Precision!
         </h2>
         <p className="[font-size:_clamp(0.7em,4vw,1.1em)] text-center text-black text-opacity-70 mt-5 md:mt-2">
-          At The Investor Diwan, we are dedicated to offering our best
-          innovations for your financial growth.
+          Embark on a Journey of Empowerment – Seamless, Inspiring,
+          and Custom-Crafted for Your Success.
         </p>
       </div>
       <div className="flex items-center justify-center mt-8">
@@ -39,12 +39,10 @@ const BestInnovations = () => {
               <GranteeSaftyIcon />
             </div>
             <h3 className="[font-size:_clamp(1em,4vw,1.8em)] mt-4 text-black">
-              Safety First
+              Effortless Education
             </h3>
             <p className="[font-size:_clamp(0.8em,4vw,1em)]  opacity-60 text-black mt-4 ">
-              Rest assured with our top-notch security measures, ensuring your
-              financial data is protected through robust encryption and
-              stringent safety protocols.
+              Engage with learning like never before. The Student Diwan makes education as easy and enjoyable as your favorite online experience, blending security, simplicity, and fun into every lesson, transforming the way you learn.
             </p>
           </div>
 
@@ -55,13 +53,10 @@ const BestInnovations = () => {
               <AllinOneIcon />
             </div>
             <h3 className="[font-size:_clamp(1em,4vw,1.8em)] text-black mt-4">
-              All-in-One Convenience{" "}
+              Security and Peace of Mind{" "}
             </h3>
             <p className="[font-size:_clamp(0.8em,4vw,1em)]  opacity-60 text-black mt-4">
-              Enjoy the convenience of having all your investment needs in one
-              app. From secure transactions to a user-friendly interface,
-              we&apos;ve streamlined the process for a seamless investing
-              experience.
+              Experience unparalleled safety with The Student Diwan. Our cutting-edge security systems protect your educational data with advanced encryption and rigorous protocols, ensuring peace of mind for students and educators alike.
             </p>
           </div>
 
@@ -72,13 +67,10 @@ const BestInnovations = () => {
               <EasyToUseIcon />
             </div>
             <h3 className="[font-size:_clamp(1em,4vw,1.8em)] text-black mt-4">
-              Seamless Investing
+              Unified Learning Hub
             </h3>
             <p className="[font-size:_clamp(0.8em,4vw,1em)] opacity-60 text-black mt-4  ">
-              Simplify your financial journey with our easy-to-use platform.
-              Invest with confidence, knowing that safety and simplicity are at
-              the core of every feature, making investing as straightforward as
-              a shopping spree.
+              Discover the ease of centralized education with The Student Diwan. From intuitive course navigation to streamlined communication, everything you need is in one place, simplifying your learning journey for unparalleled convenience.
             </p>
           </div>
         </div>

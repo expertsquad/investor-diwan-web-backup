@@ -26,13 +26,13 @@ const About = () => {
           </div>
           <div className="flex items-center justify-center gap-5 flex-col absolute">
             <h3 className="text-center text-[22px] md:text-5xl text-black mb-2.5 md:mb-5 font-bold ">
-              About Investor Diwan
+              About The Student Diwan
             </h3>
             <div className="flex items-center justify-center [width:clamp(250px,50vw,500px)]">
               <Image src={lineImage} alt="line image" />
             </div>
             <p className="text-sm md:text-[18px] text-black text-opacity-70 text-center mt-4 md:mt-8 md:w-[900px] leading-8">
-              The Investor Diwan is revolutionizing the FinTech landscape with its pioneering micro-investing platform, the first of its kind in the MENA region. Our platform is designed to make investing effortless and accessible, breaking down traditional barriers and integrating investment opportunities into everyday financial activities.
+              The Student Diwan is transforming the educational experience in the MENA region, making learning seamless and engaging. Our platform dismantles traditional hurdles and weaves educational opportunities into the fabric of daily academic and administrative activities, simplifying the path to academic excellence for students, educators, and administrators alike.
             </p>
           </div>
         </div>
@@ -40,10 +40,10 @@ const About = () => {
       {/* //--spark of innovation-- */}
       <div className="bg-black bg-opacity-10 px-5 py-[30px] md:px-10 md:py-16 lg:px-16 lg:py-24 rounded-md mb-6 md:mb-16 ">
         <h4 className="text-[18px] md:text-[50px] font-bold text-center text-black animate-bounce">
-          Igniting the Spark of Innovation
+          Fostering a Revolution in Learning
         </h4>
         <p className="text-black text-opacity-70 text-center text-sm md:text-[18px] leading-tight mt-5 md:mt-7">
-          Our journey at The Investor Diwan began with more than just a vision; it started with a spark of innovation. Rooted in the vibrant heart of Qatar, a diverse group of visionary entrepreneurs and tech wizards came together, united by a shared passion for finance and technology. This convergence of minds gave birth to a groundbreaking idea – to transform stock investing from a distant dream into an integral part of everyday life.
+          The inception of The Student Diwan was driven by more than mere ambition; it was fueled by a revolution in thought. Nestled within the dynamic landscape of Qatar, a collective of innovative educators, technology enthusiasts, and visionary thinkers converged, bound by a unified goal to redefine the educational experience. This collaboration sparked an innovative platform – aimed at transforming the way learning is perceived and delivered, making quality education not just a goal but a standard part of everyday life for students and educators alike.
         </p>
       </div>
 
@@ -109,13 +109,10 @@ const About = () => {
             OUR GOALS
           </span>
           <h6 className="text-black font-bold text-xl md:text-[44px] my-2.5 md:mb-5 leading-[45px]">
-            Your Success, Our Commitment
+            Your Growth, Our Mission
           </h6>
-          <p className="text-black text-sm md:text-[18px] mb-5 md:mb-16">
-            The Investor Diwan is not just about investing , it&apos;s about
-            investing in yourself. Join us today and unlock the doors to
-            financial growth and confidence. Your future in Investing starts
-            here.
+          <p className="text-black text-sm md:text-[18px] mb-10 md:mb-20">
+            The Student Diwan goes beyond traditional education—it's about investing in your potential. Embrace the journey with us and open pathways to academic achievement and personal development. Your future in learning begins now.
           </p>
           <div className="flex items-center justify-center md:justify-center py-10 md:py-0 mb-7">
             <Image

@@ -59,11 +59,11 @@ const Hero = () => {
             <h1
               className={`[font-size:_clamp(1.6em,4vw,3.2em)] leading-tight text-black ${cinzel.className}`}
             >
-              Embark on your journey to financial prosperity{" "}
-              <span className="text-[#B0008F] ">with us!</span>
+              Begin Your Learning Transformation with{" "}
+              <span className="text-[#B0008F] ">The Student Diwan!</span>
             </h1>
             <p className="text-base text-black text-opacity-70 [font-size:_clamp(0.7em,40vw,1.1em)] mt-5">
-              Where Every Spend Becomes An Investment, Transforming Transactions Into Tomorrow&apos;s Wealth.
+              Where Every Lesson is a Gateway to Innovation, Turning Education into a Foundation for Future Success.
             </p>
             <div className="text-black mt-5 w-full ">
 

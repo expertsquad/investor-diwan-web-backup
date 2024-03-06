@@ -4,39 +4,39 @@ import { UrlObject } from "url";
 export const yourSuccessDemoData = [
   {
     id: 1,
-    title: "Swipe & Invest",
+    title: "Dynamic Class and Syllabus Management",
     description:
-      "Invest effortlessly with the swipe of your card, seamlessly integrating investing into your daily transactions.",
+      "Streamline your academic journey with The Student Diwan, where managing classes, routines, and syllabi is simplified through our intuitive platform, ensuring that educators and students are always in sync.",
   },
   {
     id: 2,
-    title: "Saving as You Shop",
+    title: "Efficient Grade and Examination Modules",
     description:
-    "Enjoy effortless savings as you shop, making financial growth a natural byproduct of your everyday spending habits."
+    "Our platform automates and simplifies grading and exam administration, offering a transparent and accessible way for students to track their academic progress and for educators to manage assessments."
   },
   {
     id: 3,
-    title: "Early Returns, Intant Gratification",
+    title: "Robust Department and Event Management",
     description:
-    "Get returns on your savings even before making significant investments, ensuring your money works for you from the start."
+    "Organize and coordinate across different departments seamlessly while keeping the school community informed and engaged through our integrated event calendar and notification system."
   },
   {
     id: 4,
-    title: "Interactive Investment Education",
+    title: "Financial and Fee Management System",
     description:
-    "Stay informed with our short, fun, and interactive informational videos, demystifying investment concepts for an engaging learning experience."
+    "Simplify the complexities of school finance with our integrated system for managing student fees and school expenses, promoting efficiency and financial transparency."
   },
   {
     id: 5,
-    title: "Daily Investment News Alerts",
+    title: "Library and Resource Management",
     description:
-"Stay updated on market trends with daily investment news tailored to your favorite securities, empowering you to make informed decisions."
+    "Access a wealth of knowledge through our digital library management system, making it easy for students and educators to find and utilize educational resources effectively."
   },
   {
     id: 6,
-    title: "Invest With Spare Change",
+    title: "Personalized Noticeboard and Communication Tools",
     description:
-    "Start investing with your spare change now, breaking the misconception that you need to wait until a certain age. As a student or at any stage of life, build a substantial portfolio for financial freedom by the time you reach 40."
+    "Keep the educational community connected with personalized announcements and a dynamic communication platform, enhancing collaboration and information sharing."
   },
 ];
 

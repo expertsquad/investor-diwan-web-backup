@@ -26,7 +26,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-center md:text-start py-7 text-black text-opacity-70">
-              The Investor Diwan is a FinTech innovator revolutionizing investing, turning everyday spending into opportunities for financial growth. Easily invest in stocks and mutual funds, making financial empowerment accessible to all.
+            The Student Diwan is your gateway to transforming education through innovation. Our unique platform offers an advanced LMS, designed to make learning engaging and accessible. We empower students and educators alike with tools for operational efficiency and enriched educational experience.
             </p>
             <div className="hidden md:block">
               <SocialMediaLinks />
@@ -86,7 +86,7 @@ const Footer = () => {
         <div className="flex flex-col-reverse gap-3 md:flex-row md:justify-between md:border-t md:pt-5 border-white border-opacity-20 pb-5 px-5 lg:px-0">
           <div className="text-black text-opacity-60 text-center">
             <p>
-              Investor Diwan created by{" "}
+              Student Diwan created by{" "}
               <Link
                 className="underline hover:text-black hover:font-bold transition-all whitespace-nowrap"
                 target="_blank"

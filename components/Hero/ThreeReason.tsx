@@ -15,19 +15,19 @@ const ThreeReason = () => {
   // Array of objects containing title and content for each collapsible section
   const sections = [
     {
-      title: "Accessibility",
+      title: "Unmatched User Experience",
       content:
-        "The Investor Diwan simplifies investing, making it easy for everyone to turn their everyday spending into financial opportunities.",
+        "The Student Diwan elevates the educational journey with an intuitive, user-friendly interface designed for the digital age. Our platform ensures that students, educators, and administrators find navigation effortless, making education more engaging and accessible than ever before.",
     },
     {
-      title: "Inclusive Solutions",
+      title: "Adaptive Learning Technologies",
       content:
-        "Whether you&apos;re new to investing or have limited resources, our platform provides tailored options to meet your financial goals.",
+        "At the heart of The Student Diwan is our commitment to fostering personalized education. Our platform utilizes cutting-edge technologies to adapt to individual learning styles and needs, providing tailored educational paths that enhance student engagement and learning outcomes.",
     },
     {
-      title: "Empowering Community",
+      title: "Community and Collaboration Focus",
       content:
-        "Join a community that values financial growth and empowerment, as we revolutionize the investment landscape together.",
+        "Beyond academic and administrative solutions, The Student Diwan champions a vibrant educational community. Our platform facilitates seamless communication and collaboration among students, teachers, and parents, nurturing a supportive and interactive learning environment.",
     },
   ];
 
@@ -41,13 +41,10 @@ const ThreeReason = () => {
         <Image src={threeReasonLineImg} alt="Three reason line image" />
       </div>
       <h5 className="text-black text-xl md:text-3xl font-medium">
-        Financial Empowerment in just a Few Clicks
+        Unlock Your Learning Potential in Moments
       </h5>
       <p className="[font-size:_clamp(14px,4vw,16px)] mt-4 md:mt-7 text-black text-opacity-70 leading-7">
-        Explore a new era of accessible and inclusive investing with The
-        Investor Diwan. Redefine your financial journey in just a few clicks—our
-        streamlined process takes just 5 minutes, making investing accessible,
-        efficient, and tailored to your goals.
+        Dive into the future of education with The Student Diwan. Redefine your academic and personal growth journey with just a few clicks. Our streamlined enrollment and learning process, taking mere minutes, opens the door to a world of accessible, engaging, and personalized education. Embrace a learning experience designed with your ambitions in mind, making education not just accessible but profoundly empowering.
       </p>
 
       {/* collapsible  */}
