@@ -10,7 +10,7 @@ const SubscriptionTemplate = () => {
           Schedule Your Personalized Free Demo
         </h6>
         <p className="text-sm md:text-[18px] text-center pb-5 pt-2 text-black text-opacity-70 md:px-10 font-extralight leading-tight">
-          Experience the innovation of The Student Diwan firsthand. Book a free demo to see how we can tailor our LMS to suit your unique educational needs. Let's embark on a journey to redefine education together.{" "}
+          Experience the innovation of The Student Diwan firsthand. Book a free demo to see how we can tailor our LMS to suit your unique educational needs. Lets embark on a journey to redefine education together.{" "}
         </p>
         <form className="flex items-center justify-between bg-white w-72 md:w-[450px] rounded-md mx-auto pl-2.5 md:pl-5">
           <Image

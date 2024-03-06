@@ -54,7 +54,7 @@ const About = () => {
       {/* //--World & Map financial Navigation-- */}
       <CustomSection
         title="Compass and Map for Financial Navigation"
-        text="The Investor Diwan emerged from the fusion of dreams and practicality, a pioneering platform designed to be the compass and map for navigating the financial world. Our team, a synergy of financial enthusiasts and tech innovators, dedicated themselves to simplifying investing. The objective was clear – to make entering the stock market as effortless and ingrained in daily routines as checking one’s phone."
+        text="The Investor Diwan emerged from the fusion of dreams and practicality, a pioneering platform designed to be the compass and map for navigating the financial world. Our team, a synergy of financial enthusiasts and tech innovators, dedicated themselves to simplifying investing. The objective was clear – to make entering the stock market as effortless and ingrained in daily routines as checking ones phone."
         image={earthImg}
         reverse
       />
@@ -112,7 +112,7 @@ const About = () => {
             Your Growth, Our Mission
           </h6>
           <p className="text-black text-sm md:text-[18px] mb-10 md:mb-20">
-            The Student Diwan goes beyond traditional education—it's about investing in your potential. Embrace the journey with us and open pathways to academic achievement and personal development. Your future in learning begins now.
+            The Student Diwan goes beyond traditional education. it is about investing in your potential. Embrace the journey with us and open pathways to academic achievement and personal development. Your future in learning begins now.
           </p>
           <div className="flex md:flex-col items-center justify-center md:justify-center py-10 md:py-0 mb-7">
             <Image
