@@ -3,10 +3,10 @@ import FeatureBG from "../assets/images/feautures.png";
 import Image from "next/image";
 import menWithPen from "@/components/assets/images/manwithpen.png";
 import ManWithPenToCard from "../assets/svg/ManWithPenToCard";
-import oneClickBalanceView from "../assets/images/oneClickBalanceView.png";
-import developmentImg from "../assets/images/developmentImg.png";
-import reasonImg from "../assets/images/3reasonImg.png";
-import expenseImg from "../assets/images/expenseImg.png";
+import oneClickBalanceView from "../assets/images/img-2.png";
+import developmentImg from "../assets/images/img-3.png";
+import reasonImg from "../assets/images/img-5.png";
+import expenseImg from "../assets/images/img-4.png";
 import { IconChevronDown, IconDeviceMobile } from "@tabler/icons-react";
 import { IconArrowNarrowRight } from "@tabler/icons-react";
 import { IconStack2 } from "@tabler/icons-react";
@@ -48,7 +48,7 @@ const FeatureSection = () => {
           {/* img */}
           <div className="  md:w-1/2 w-full flex items-center justify-center ">
             <div className="h-80 w-80 bg-gradient-to-l from-[#b0008fb3] to-[#0045e2b3] custom-animation-bg-changed rounded-full flex items-center justify-center overflow-hidden">
-              <div className="h-56 w-56 ">
+              <div className="px-8">
                 <Image src={oneClickBalanceView} alt="One Click Balance View" />
               </div>
             </div>
@@ -103,7 +103,7 @@ const FeatureSection = () => {
 
               <Image
                 src={expenseImg}
-                className="absolute top-20 "
+                className="absolute top-16 "
                 alt="Expense image"
               />
             </div>
@@ -165,7 +165,7 @@ const FeatureSection = () => {
               </div>
               <div className="md:h-40 md:w-40 h-12 w-12 bg-[#AE00FF]  md:blur-[130px] blur-[50px] absolute top-0    "></div>
 
-              <div className="absolute top-10 overflow-hidden  ">
+              <div className="absolute top-4 overflow-hidden  ">
                 <Image src={reasonImg} alt="Expense image" />
               </div>
             </div>

@@ -4,7 +4,7 @@ import mapDesktop from "@/components/assets/map-location-desktop.svg";
 import dollarMapDesktop from "@/components/assets/doller-map-desktop.svg";
 import bridgeDesktop from "@/components/assets/bridge-Desktop.svg";
 import movementImageDesktop from "@/components/assets/movementImage-Desktop.svg";
-import userPageDemo from "@/components/assets/userPageDemo.svg";
+import userPageDemo from "@/components/assets/images/img-6.png";
 import { yourSuccessDemoData } from "@/constants";
 import earthImg from "@/components/assets/images/world.png";
 import CustomSection from "./CustomSection";
@@ -114,7 +114,7 @@ const About = () => {
           <p className="text-black text-sm md:text-[18px] mb-10 md:mb-20">
             The Student Diwan goes beyond traditional education—it's about investing in your potential. Embrace the journey with us and open pathways to academic achievement and personal development. Your future in learning begins now.
           </p>
-          <div className="flex items-center justify-center md:justify-center py-10 md:py-0 mb-7">
+          <div className="flex md:flex-col items-center justify-center md:justify-center py-10 md:py-0 mb-7">
             <Image
               src={userPageDemo}
               alt="User Page Demo"

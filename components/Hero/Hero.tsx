@@ -2,7 +2,7 @@ import TopRightAsset from "../Shared/TopRightAsset";
 import DropBG from "./DropBG";
 import Crosssvg from "./Crosssvg";
 import Image from "next/image";
-import heroImg from "@/components/assets/images/heroimg.png";
+import heroImg from "@/components/assets/images/img-1.png";
 import DotBG from "../assets/svg/DotBG";
 import MoveToBottom from "../assets/svg/MoveToBottom";
 import { Cinzel } from "next/font/google";
