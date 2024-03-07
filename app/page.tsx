@@ -1,8 +1,6 @@
 import BestInnovations from "@/components/BestInnovations/BestInnovations";
 import FeatureSection from "@/components/FeatureSection/FeatureSection";
 import Hero from "@/components/Hero/Hero";
-import Step from "@/components/Hero/Step";
-import WatchVideo from "@/components/Hero/WatchVideo";
 import WhyYouShould from "@/components/WhyYouShould/WhyYouShould";
 
 export default function Home() {
@@ -16,11 +14,7 @@ export default function Home() {
 
       <FeatureSection />
 
-      <Step />
-
-      <WatchVideo />
-
-      <div className="mb-80"></div>
+      <div className="mb-[650px]"></div>
     </main>
   );
 }
