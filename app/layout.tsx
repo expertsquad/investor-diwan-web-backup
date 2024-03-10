@@ -8,8 +8,8 @@ import ScrollButton from "@/components/Shared/ScrollButton";
 const dmSans = DM_Sans({ weight: ["400"], subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Investor Diwan | Home",
-  description: "Investor Diwan Qatar",
+  title: "Student Diwan | Home",
+  description: "Student Diwan Qatar",
 };
 
 export default function RootLayout({

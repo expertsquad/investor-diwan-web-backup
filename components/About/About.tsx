@@ -13,10 +13,10 @@ const About = () => {
   return (
     <div className="bg-white px-5 md:px-4 max-w-[1280px] mx-auto mt-[150px] md:mt-44 lg:mt-56 mb-8 md:mb-48">
       <title className="text-center text-[22px] md:text-5xl text-black mb-2.5 md:mb-5 font-bold ">
-        Investor Diwan | About
+        Student Diwan | About
       </title>
 
-      {/* //--About investor diwan-- */}
+      {/* //--About Student Diwan-- */}
       <div className="relative mb-20 md:mb-28">
         {/* --Background Shape-- */}
         <div className="h-[288px] w-[288px] bg-[#AE00FF] hidden md:block blur-[290px] absolute left-[-500px] translate-x-1/2 "></div>
@@ -54,7 +54,7 @@ const About = () => {
       {/* //--World & Map financial Navigation-- */}
       <CustomSection
         title="Compass and Map for Financial Navigation"
-        text="The Investor Diwan emerged from the fusion of dreams and practicality, a pioneering platform designed to be the compass and map for navigating the financial world. Our team, a synergy of financial enthusiasts and tech innovators, dedicated themselves to simplifying investing. The objective was clear – to make entering the stock market as effortless and ingrained in daily routines as checking ones phone."
+        text="The Student Diwan emerged from the fusion of dreams and practicality, a pioneering platform designed to be the compass and map for navigating the financial world. Our team, a synergy of financial enthusiasts and tech innovators, dedicated themselves to simplifying investing. The objective was clear – to make entering the stock market as effortless and ingrained in daily routines as checking ones phone."
         image={earthImg}
         reverse
       />
@@ -67,7 +67,7 @@ const About = () => {
       {/* //--Pathway of Financial ETC-- */}
       <CustomSection
         title="A Pathway for All to Navigate Financial Waters"
-        text="Our initiative extended beyond merely opening doors to the stock market; it was about creating a pathway that is inviting and comprehensible to everyone. Whether you are a young professional taking your first step into investing or a seasoned investor seeking smarter portfolio expansion, The Investor Diwan stands as a beacon, guiding individuals through the intricacies of investing."
+        text="Our initiative extended beyond merely opening doors to the stock market; it was about creating a pathway that is inviting and comprehensible to everyone. Whether you are a young professional taking your first step into investing or a seasoned investor seeking smarter portfolio expansion, The Student Diwan stands as a beacon, guiding individuals through the intricacies of investing."
         image={dollarMapDesktop}
         reverse
         imageOrder
@@ -92,7 +92,7 @@ const About = () => {
       {/* //--Movement for Financial Empowerment--*/}
       <CustomSection
         title="Movement for Financial Empowerment"
-        text="Today, The Investor Diwan transcends being just a platform; it has evolved into a movement towards financial empowerment. Our journey persists as we innovate, educate, and break new ground, ensuring that the world of finance is no longer an elite playground but a community garden – thriving and accessible to all. Join us as we redefine the investment landscape, making financial growth and success a daily reality for everyone."
+        text="Today, The Student Diwan transcends being just a platform; it has evolved into a movement towards financial empowerment. Our journey persists as we innovate, educate, and break new ground, ensuring that the world of finance is no longer an elite playground but a community garden – thriving and accessible to all. Join us as we redefine the investment landscape, making financial growth and success a daily reality for everyone."
         image={movementImageDesktop}
         reverse
         imageOrder

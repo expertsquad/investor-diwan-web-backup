@@ -8,7 +8,7 @@ const ServicesHero = () => {
     <section className="text-black">
 
       <title className="text-center text-[22px] md:text-5xl text-black mb-2.5 md:mb-5 font-bold ">
-        Investor Diwan | Services
+        Student Diwan | Services
       </title>
       <div className="">
         {/* blur ball start */}

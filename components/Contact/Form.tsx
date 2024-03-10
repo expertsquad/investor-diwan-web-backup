@@ -88,7 +88,7 @@ const Form = () => {
         {/* -Text Area Input- */}
         <div className=" md:col-span-2 w-full flex items-center justify-center">
           <textarea
-            title="Please bellow your message about Investor Diwan"
+            title="Please bellow your message about Student Diwan"
             className="bg-black bg-opacity-10 md:max-w-[770px] w-full rounded-xl resize-none p-5 outline-none text-black placeholder:text-sm md:placeholder:text-[18px] mb-5 "
             placeholder="Type Your Message"
             name="message"
