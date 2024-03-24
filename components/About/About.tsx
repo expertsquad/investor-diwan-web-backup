@@ -26,13 +26,15 @@ const About = () => {
           </div>
           <div className="flex items-center justify-center gap-5 flex-col absolute">
             <h3 className="text-center text-[22px] md:text-5xl text-black mb-2.5 md:mb-5 font-bold ">
-              About The Student Diwan
+            Welcome to Our World: <br/>The Student Diwan
             </h3>
             <div className="flex items-center justify-center [width:clamp(250px,50vw,500px)]">
               <Image src={lineImage} alt="line image" />
             </div>
             <p className="text-sm md:text-[18px] text-black text-opacity-70 text-center mt-4 md:mt-8 md:w-[900px] leading-8">
-              The Student Diwan is transforming the educational experience in the MENA region, making learning seamless and engaging. Our platform dismantles traditional hurdles and weaves educational opportunities into the fabric of daily academic and administrative activities, simplifying the path to academic excellence for students, educators, and administrators alike.
+            Hey there,
+We are really glad you stopped by to learn a bit more about us. You see, The Student Diwan is not just a project or a platform; it is the heartbeat of a dream that began in a small corner of Qatar, fueled by a group of friends passionate about changing the educational game.
+
             </p>
           </div>
         </div>
@@ -40,11 +42,9 @@ const About = () => {
       {/* //--spark of innovation-- */}
       <div className="bg-black bg-opacity-10 px-5 py-[30px] md:px-10 md:py-16 lg:px-16 lg:py-24 rounded-md mb-6 md:mb-16 ">
         <h4 className="text-[18px] md:text-[50px] font-bold text-center text-black animate-bounce">
-          Fostering a Revolution in Learning
-        </h4>
+        Why We Started        </h4>
         <p className="text-black text-opacity-70 text-center text-sm md:text-[18px] leading-tight mt-5 md:mt-7">
-          The inception of The Student Diwan was driven by more than mere ambition; it was fueled by a revolution in thought. Nestled within the dynamic landscape of Qatar, a collective of innovative educators, technology enthusiasts, and visionary thinkers converged, bound by a unified goal to redefine the educational experience. This collaboration sparked an innovative platform – aimed at transforming the way learning is perceived and delivered, making quality education not just a goal but a standard part of everyday life for students and educators alike.
-        </p>
+        Remember those days in school when you felt like just another face in the crowd, textbooks seemed like they were written in ancient code, and the classroom walls felt more like barriers than gateways? We do. That is exactly why we started The Student Diwan. We believed there had to be a way to make learning not just more accessible, but truly captivating—a journey that every student would want to embark on.        </p>
       </div>
 
       <div className="flex items-center justify-between">
@@ -53,9 +53,8 @@ const About = () => {
       </div>
       {/* //--World & Map financial Navigation-- */}
       <CustomSection
-        title="Compass and Map for Financial Navigation"
-        text="The Student Diwan emerged from the fusion of dreams and practicality, a pioneering platform designed to be the compass and map for navigating the financial world. Our team, a synergy of financial enthusiasts and tech innovators, dedicated themselves to simplifying investing. The objective was clear – to make entering the stock market as effortless and ingrained in daily routines as checking ones phone."
-        image={earthImg}
+        title="What We have Built"
+text="So, what did we do? We rolled up our sleeves and built The Student Diwan from the ground up. It is our cozy corner of the internet where learning comes alive, where educators and students come together to share, explore, and grow. Our platform? It is as versatile as a Swiss Army knife, designed to fit your needs, whether you are mapping out a curriculum, diving into collaborative projects, or just looking for that spark of inspiration."        image={earthImg}
         reverse
       />
 
@@ -66,9 +65,8 @@ const About = () => {
       </div>
       {/* //--Pathway of Financial ETC-- */}
       <CustomSection
-        title="A Pathway for All to Navigate Financial Waters"
-        text="Our initiative extended beyond merely opening doors to the stock market; it was about creating a pathway that is inviting and comprehensible to everyone. Whether you are a young professional taking your first step into investing or a seasoned investor seeking smarter portfolio expansion, The Student Diwan stands as a beacon, guiding individuals through the intricacies of investing."
-        image={dollarMapDesktop}
+        title="Our Tribe"
+text="But what truly makes The Student Diwan special is the tribe that calls it home. We are a melting pot of curious minds, spirited educators, and supportive families, all united in our belief that education is the key to unlocking a world of possibilities. Here, every question is celebrated, every achievement is a collective victory, and no one ever has to learn alone."        image={dollarMapDesktop}
         reverse
         imageOrder
       />
@@ -80,23 +78,28 @@ const About = () => {
       </div>
       {/* //--Bridging the Gap in Financial Understanding-- */}
       <CustomSection
-        title="Bridging the Gap in Financial Understanding"
-        text="As we delved into the dynamics of the stock market, we realized that while its ripples touched every corner of our lives, many individuals remained on the shores, unsure of how to navigate the vast financial waters. This observation fueled our mission: to dismantle the formidable walls surrounding financial markets. Our goal was not just to make them accessible but to make investing as habitual and straightforward as your morning coffee."
-        image={bridgeDesktop}
+        title="Come Join Us"
+text="If you have ever believed that education could be more than just lectures and textbooks, that it could be an adventure that excites and empowers, then you are in the right place. We are inviting you to join us on this journey. Bring your ideas, your dreams, and your passion for learning. Together, we will turn the page to a new chapter in education.
+
+This isn it just about us. It is about all of us. Welcome to The Student Diwan, where every lesson is an adventure waiting to happen.
+
+With warmth and excitement,
+The Team at The Student Diwan
+"        image={bridgeDesktop}
         reverse
       />
       <div className="flex items-center justify-between">
         <div className="md:h-40 md:w-40 h-12 w-12 bg-[#AE00FF]  md:blur-[190px] blur-[60px]    "></div>
         <div className="md:h-40 md:w-40 h-12 w-12 bg-[#AE00FF]  md:blur-[190px] blur-[60px]    "></div>
       </div>
-      {/* //--Movement for Financial Empowerment--*/}
+      {/* //--Movement for Financial Empowerment--
       <CustomSection
         title="Movement for Financial Empowerment"
         text="Today, The Student Diwan transcends being just a platform; it has evolved into a movement towards financial empowerment. Our journey persists as we innovate, educate, and break new ground, ensuring that the world of finance is no longer an elite playground but a community garden – thriving and accessible to all. Join us as we redefine the investment landscape, making financial growth and success a daily reality for everyone."
         image={movementImageDesktop}
         reverse
         imageOrder
-      />
+      /> */}
 
       <div className="flex items-center justify-end">
         <div className="md:h-40 md:w-40 h-12 w-12 bg-[#AE00FF]  md:blur-[190px] blur-[60px]    "></div>

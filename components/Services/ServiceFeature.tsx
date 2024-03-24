@@ -15,10 +15,10 @@ const ServiceFeature = () => {
 
       <div className="flex items-center justify-center flex-col gap-4 ">
         <h4 className=" [font-size:_clamp(0.8em,4vw,1.1em)] tracking-[10px]">
-          Feature
+        For Educators
         </h4>
         <h2 className="[font-size:_clamp(0.9em,4vw,1.8em)] font-bold">
-          What We Do
+        Empowering Teaching
         </h2>
       </div>
       {/* feature section end */}
@@ -42,7 +42,7 @@ const ServiceFeature = () => {
           <div className="md:w-4/12 w-full flex items-center justify-center md:flex-row flex-col ">
             <div className="md:h-24 md:w-24 h-10 w-10 bg-[#AE00FF]  md:blur-[130px] blur-[50px]   "></div>
             <h2 className="[font-size:_clamp(1.3em,4vw,1.7em)] md:text-right text-center">
-              Swipe & Invest
+            Efficient School Management
             </h2>
           </div>
 
@@ -57,14 +57,14 @@ const ServiceFeature = () => {
           </div>
 
           <div className="md:w-5/12 md:text-left text-center w-full [font-size:_clamp(0.6em,4vw,1em)]">
-            Invest effortlessly with the swipe of your card, seamlessly integrating investing into your daily transactions.
+          From enrollment to alumni relations, our platform simplifies administrative tasks, allowing you to focus on what matters most—nurturing a thriving educational community.
           </div>
         </div>
 
         {/* card 2 */}
         <div className="flex md:items-center md:justify-start justify-center  items-center md:gap-12 gap-4  md:flex-row flex-col-reverse  w-full group p-7  ">
           <div className="md:w-5/12 md:text-end text-center w-full [font-size:_clamp(0.6em,4vw,1em)]">
-            Enjoy effortless savings as you shop, making financial growth a natural by product of your everyday spending habits.
+          Say goodbye to isolated planning. Our platform encourages collaboration, enabling you to share ideas, resources, and strategies with colleagues, creating a dynamic teaching environment.
           </div>
 
           <div className=" bg-gradient-to-tr from-purple-700 via-blue-900 to-green-950 flex items-center justify-center md:p-2 p-1  rounded-full  ">
@@ -79,7 +79,7 @@ const ServiceFeature = () => {
 
           <div className="md:w-4/12 w-full flex items-center justify-center md:flex-row flex-col-reverse ">
             <h2 className="[font-size:_clamp(1.3em,4vw,1.7em)] md:text-left text-center">
-              Save as You Shop
+            Collaborative Workspace
             </h2>
             <div className="md:h-24 md:w-24 h-10 w-10 bg-[#AE00FF]  md:blur-[130px] blur-[50px]   "></div>
           </div>
@@ -89,7 +89,7 @@ const ServiceFeature = () => {
           <div className="md:w-4/12 w-full flex items-center justify-center md:flex-row flex-col ">
             <div className="md:h-24 md:w-24 h-10 w-10 bg-[#AE00FF]  md:blur-[140px] blur-[50px]   "></div>
             <h2 className="[font-size:_clamp(1.3em,4vw,1.7em)]  md:text-right text-center">
-              Early Returns, Instant Gratification
+              Innovative Assessment Tools
             </h2>
           </div>
 
@@ -104,14 +104,14 @@ const ServiceFeature = () => {
           </div>
 
           <div className="md:w-5/12 md:text-left text-center w-full [font-size:_clamp(0.6em,4vw,1em)]">
-            Get returns on your savings even before making significant investments, ensuring your money works for you from the start.
-          </div>
+          From traditional quizzes to creative projects, our flexible assessment tools help you measure student progress in a way that is meaningful and motivating.
+            </div>
         </div>
 
         {/* card 4 */}
         <div className="flex md:items-center md:justify-start justify-center  items-center md:gap-12 gap-4  md:flex-row flex-col-reverse  w-full group   p-7 ">
           <div className="md:w-5/12 md:text-right text-center w-full [font-size:_clamp(0.6em,4vw,1em)]">
-            Stay informed with our short, fun, and interactive informational videos, demystifying investment concepts for an engaging learning experience.
+          We believe every lesson should be an adventure. That is why our platform includes a variety of multimedia resources, interactive content, and gamification elements to make learning an engaging experience.
           </div>
 
           <div className=" bg-gradient-to-tr from-purple-700 via-blue-900 to-green-950 flex items-center justify-center md:p-2 p-1  rounded-full ">
@@ -126,7 +126,7 @@ const ServiceFeature = () => {
 
           <div className="md:w-4/12 w-full flex items-center justify-center md:flex-row flex-col-reverse ">
             <h2 className="[font-size:_clamp(1.3em,4vw,1.7em)]  md:text-left text-center">
-              Interactive Investment Education
+            Interactive Lessons
             </h2>
             <div className="md:h-24 md:w-24 h-10 w-10 bg-[#AE00FF]  md:blur-[140px] blur-[50px]   "></div>
           </div>
@@ -136,7 +136,7 @@ const ServiceFeature = () => {
           <div className="md:w-4/12 w-full flex items-center justify-center md:flex-row flex-col ">
             <div className="md:h-24 md:w-24 h-10 w-10 bg-[#AE00FF]  md:blur-[140px] blur-[50px]   "></div>
             <h2 className="[font-size:_clamp(1.3em,4vw,1.7em)]  md:text-right text-center">
-              Daily Investment News Alerts
+            Personalized Learning Paths
             </h2>
           </div>
 
@@ -151,14 +151,14 @@ const ServiceFeature = () => {
           </div>
 
           <div className="md:w-5/12 md:text-left text-center w-full [font-size:_clamp(0.6em,4vw,1em)]">
-            Stay updated on market trends with daily investment news tailored to your favorite securities, empowering you to make informed decisions.          </div>
+          Every student is unique, and our platform celebrates that. Customize learning experiences to fit individual interests, abilities, and learning styles, encouraging self-paced growth. </div>
         </div>
 
         {/* card 6 */}
         <div className="flex md:items-center md:justify-start justify-center  items-center md:gap-12 gap-4  md:flex-row flex-col-reverse  group w-full   p-7 ">
           <div className="md:w-5/12 md:text-end text-center w-full [font-size:_clamp(0.6em,4vw,1em)]">
-            Start investing with your spare change now, breaking the misconception that you need to wait until a certain age. As a student or at any stage of life, build a substantial portfolio for financial freedom by the time you reach 40.
-          </div>
+          Students can showcase their understanding through diverse formats—be it essays, presentations, art, or code—encouraging creativity and critical thinking.
+           </div>
 
           <div className=" bg-gradient-to-tr from-purple-700 via-blue-900 to-green-950 flex items-center justify-center md:p-2 p-1  rounded-full ">
             <div className="round md:h-40 md:w-40 h-10 w-10  rounded-full">
@@ -172,7 +172,7 @@ const ServiceFeature = () => {
 
           <div className="md:w-4/12 w-full flex items-center justify-center md:flex-row flex-col-reverse ">
             <h2 className="[font-size:_clamp(1.3em,4vw,1.7em)]  md:text-start text-center">
-              Invest with Spare Change
+            Creative Expression
             </h2>
             <div className="md:h-24 md:w-24 h-10 w-10 bg-[#AE00FF]  md:blur-[140px] blur-[50px]   "></div>
           </div>

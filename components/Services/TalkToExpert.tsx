@@ -22,16 +22,13 @@ const TalkToExpert = () => {
         </div>
         <div className="max-w-[700px] mx-auto text-black text-center flex flex-col items-center justify-center gap-7">
           <h4 className=" [font-size:_clamp(0.8em,4vw,1.1em)] tracking-[10px]">
-            GREAT DEAL
+          For Families
           </h4>
           <h2 className="[font-size:_clamp(1em,4vw,1.8em)] font-bold">
-            Talk To The Expert !
+          Inclusive Participation
           </h2>
           <p className="[font-size:_clamp(0.6em,4vw,1em)]">
-            Ask and clear all your doubts by conversing with the right
-            professionals.Connect with experts who specialize in your area of
-            interest to ask and clear all your doubts through meaningful
-            conversations and valuable insights.
+          Stay in the loop with instant access to your childs progress, upcoming assignments, and classroom announcements, making it easier to support their educational journey.
           </p>
         </div>
         <div>

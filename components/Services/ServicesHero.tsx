@@ -27,9 +27,9 @@ const ServicesHero = () => {
               <h2 className="[font-size:_clamp(1.3em,4vw,1.8em)]">Services</h2>
               <ServiceUnderLine />
               <h1 className="text-[22px] md:text-[38px] lg:text-[45px] font-bold text-center w-[280px] md:w-[750px] lg:w-[900px] mx-auto">
-                Committed To Helping Our Customers Succeed In Their Investing
-                Journey
+              Welcome to a New Era of Learning
               </h1>
+              <p className="text-center">The Student Diwan is at the forefront of revolutionizing education by integrating technology, personalization, and seamless communication within the educational journey. We pride ourselves on offering comprehensive services designed to empower educators, engage students, enrich families involvement, and streamline administrative tasks with a focus on financial convenience and transparency. Here is how we are making it happen</p>
             </div>
           </div>
           <div>

@@ -44,21 +44,21 @@ export const yourSuccessDemoData = [
 export const serviceData = [
   {
     id: 1,
-    title: "Swipe & Invest",
+    title: "Comprehensive Curriculum Planning",
     description:
-    "Invest effortlessly with the swipe of your card, seamlessly integrating investing into your daily transactions."
+    "From enrollment to alumni relations, our platform simplifies administrative tasks, allowing you to focus on what matters most—nurturing a thriving educational community."   
   },
   {
     id: 2,
-    title: "Savings As You Shop",
+    title: "Data-Driven Decisions",
     description:
-    "Enjoy effortless savings as you shop, making financial growth a natural byproduct of your everyday spending habits."
+    "Harness the power of analytics to gain insights into school performance, student engagement, and resource allocation, driving strategic improvements across the board."
   },
   {
     id: 3,
-    title: "Early Returns, Intant Gratification",
+    title: "Direct Fees Payment",
     description:
-    "Get returns on your savings even before making significant investments, ensuring your money works for you from the start."
+    "Experience unparalleled ease with our direct fees payment system, a first in our country, embedded within The Student Diwan platform. This service is designed to eliminate the complexities and frustrations traditionally associated with school fee payments, offering a direct, secure, and hassle-free channel for parents to manage their financial commitments to the school."
   },
 ];
 
